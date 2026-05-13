@@ -92,7 +92,7 @@
                 "name": "KP Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/KP Paratroopa.png","chest_opened_img": "/images/tattles/KP Paratroopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","^enemy_randoo|KP Paratroopa"],
+                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","^$enemy_randoo|KP Paratroopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 440}]
             },
             {
