@@ -31,6 +31,34 @@ function chapters(AMOUNT)
 return count >= req
 end
 
+function enemy_rando(ENEMY_NAME)
+    local enemy_rando_obj = Tracker:FindObjectForCode("enemy_randomizer")
+    if enemy_rando_obj then
+        if enemy_rando_obj.CurrentStage == "0" then
+            return AccessibilityLevel.None
+        end
+	else
+		return AccessibilityLevel.None
+    end
+	ENEMY_NAME = "Tattle: " .. ENEMY_NAME
+	local location_ids = ENEMY_DICT[ENEMY_NAME]
+	if location_ids then
+		local highest_access = AccessibilityLevel.None
+		for id in location_ids do
+			local current_access = get_access_level(LOCATION_MAPPING[id])
+			if current_access > highest_access then
+				highest_access = current_access
+				if current_access >= AccessibilityLevel.Normal then
+					return highest_access
+				end
+			end
+		end
+		return highest_access
+	else
+		return AccessibilityLevel.None
+	end
+end
+
 -- Access Functions
 
 function tube()
@@ -152,7 +180,6 @@ function HRG_sewerwest()
 function HRG_palace()
 	return (has("Flurrie") and has("GlitchedLogic")) and (((stars(0)) and has("Chapter0")) or ((stars(1)) and has("Chapter1")) or ((stars(2)) and has("Chapter2")) or ((stars(3)) and has("Chapter3")) or ((stars(4)) and has("Chapter4")) or ((stars(5)) and has("Chapter5")) or ((stars(6)) and has("Chapter6")) or ((stars(7)) and has("Chapter7")))
 	end
-
 
 
 

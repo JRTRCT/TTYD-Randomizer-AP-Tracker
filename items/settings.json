@@ -106,6 +106,12 @@
         "codes": "Pillar"
     },
     {
+        "name": "JRTRCT on Discord!",
+        "type": "static",
+        "img": "images/items/JRTRCT.png",
+        "codes": "JRTRCT"
+    },
+    {
         "name": "https://discord.gg/zar9H8vfya",
         "type": "static",
         "img": "images/items/Discord.png",
@@ -362,6 +368,46 @@
               "name": "Dazzle Rewards All Random",
               "img": "/images/items/Dazzle.png",
               "codes": "dazzle_all, dazzle_rewards",
+              "inherit_codes": false
+          }
+        ]
+      },
+      {
+        "name": "Blue Pipe Toggle",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 2,
+        "stages": [
+          {
+              "name": "Blue Pipes Disabled",
+              "img": "images/items/BluePipeDim.png",
+              "codes": "pipe_off, blue_pipe_toggle",
+              "inherit_codes": false
+          },
+          {
+              "name": "Blue Pipes Enabled",
+              "img": "images/items/BluePipe.png",
+              "codes": "pipe_on, blue_pipe_toggle",
+              "inherit_codes": false
+          }
+        ]
+      },
+      {
+        "name": "Enemy Randomizer",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+          {
+              "name": "Enemy Randomizer Disabled",
+              "img": "images/items/YBlockOpen.png",
+              "codes": "enemy_vanilla, enemy_randomizer",
+              "inherit_codes": false
+          },
+          {
+              "name": "Enemy Randomizer Enabled",
+              "img": "images/items/YBlock.png",
+              "codes": "enemy_random, enemy_randomizer",
               "inherit_codes": false
           }
         ]
