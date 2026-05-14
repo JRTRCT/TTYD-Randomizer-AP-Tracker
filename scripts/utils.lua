@@ -22,7 +22,7 @@ function get_access_level(location_code)
     if location then
         return location.AccessibilityLevel
     else
-        AccessibilityLevel.None
+        return AccessibilityLevel.None
     end
 end
 
