@@ -167,8 +167,9 @@ SLOT_CODES =
       code = "enemy_randomizer",
       mapping =
       {
-      [0] = "0", -- False
-      [1] = "1", -- True
+      [0] = "0", -- Vanilla
+      [1] = "1", -- Within chapter randomization
+      [2] = "2", -- Full randomization
       }
     }
 }

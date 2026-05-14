@@ -376,7 +376,7 @@
         "name": "Blue Pipe Toggle",
         "type": "progressive",
         "allow_disabled": false,
-        "initial_stage_idx": 2,
+        "initial_stage_idx": 1,
         "stages": [
           {
               "name": "Blue Pipes Disabled",
@@ -396,7 +396,7 @@
         "name": "Enemy Randomizer",
         "type": "progressive",
         "allow_disabled": false,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "stages": [
           {
               "name": "Enemy Randomizer Disabled",
@@ -405,8 +405,14 @@
               "inherit_codes": false
           },
           {
-              "name": "Enemy Randomizer Enabled",
+              "name": "Enemy Randomizer Enabled (Within Chapter Only)",
               "img": "images/items/YBlock.png",
+              "codes": "enemy_random, enemy_randomizer",
+              "inherit_codes": false
+          },
+          {
+              "name": "Enemy Randomizer Enabled (All Enemies)",
+              "img": "images/items/RBlock.png",
               "codes": "enemy_random, enemy_randomizer",
               "inherit_codes": false
           }
