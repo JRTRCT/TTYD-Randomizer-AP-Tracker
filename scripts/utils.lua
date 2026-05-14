@@ -22,6 +22,7 @@ function get_access_level(location_code)
     if location then
         return location.AccessibilityLevel
     else
+        print(location_code .. " not found")
         return AccessibilityLevel.None
     end
 end

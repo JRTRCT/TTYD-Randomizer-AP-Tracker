@@ -24,7 +24,7 @@ function chapters(AMOUNT)
 	local req = AMOUNT
 	local count = 0
 	for _, location in pairs(STAR_LOCATIONS) do
-		if can_reach(location) then
+		if can_reach(location .. " Dummy") then
 			count = count + 1
 		end
 	end
@@ -35,26 +35,38 @@ function enemy_rando(ENEMY_NAME)
     local enemy_rando_obj = Tracker:FindObjectForCode("enemy_randomizer")
     if enemy_rando_obj then
         if enemy_rando_obj.CurrentStage == "0" then
+			print("Enemy rando disabled")
             return AccessibilityLevel.None
         end
 	else
+		print("Enemy rando object not found")
 		return AccessibilityLevel.None
     end
 	ENEMY_NAME = "Tattle: " .. ENEMY_NAME
+	print("Finding access level for " .. ENEMY_NAME)
 	local location_ids = ENEMY_DICT[ENEMY_NAME]
 	if location_ids then
 		local highest_access = AccessibilityLevel.None
-		for id in location_ids do
-			local current_access = get_access_level(LOCATION_MAPPING[id])
-			if current_access > highest_access then
-				highest_access = current_access
-				if current_access >= AccessibilityLevel.Normal then
-					return highest_access
+		for _, id in pairs(location_ids) do
+			local location_array = LOCATION_MAPPING[id]
+			if not location_array then
+				print("location ID " .. tostring(id) .. " not found in location mapping")
+			else
+				for _, code in pairs(location_array) do
+					local current_access = get_access_level(code .. " Dummy")
+					if current_access > highest_access then
+						print("New highest access level: " .. tostring(current_access) .. " at " .. code)
+						highest_access = current_access
+						if current_access >= AccessibilityLevel.Normal then
+							return highest_access
+						end
+					end
 				end
 			end
 		end
 		return highest_access
 	else
+		print("location ids not found")
 		return AccessibilityLevel.None
 	end
 end
@@ -74,7 +86,7 @@ function westside()
 	end
 
 function bogglywoods()
-	return has("PaperCurse") or (has("Superhammer") and has("SuperBoots"))
+	return has("PaperCurse") or (has("Superhammer") and has("SuperBoots") and has("pipe_on"))
 	end
 
 function pit()
@@ -102,7 +114,7 @@ function steeple()
 	end
 
 function keelhaul_key()
-	return ((yoshi()) and (tube()) and (has("OldLetter"))) or (has("UltraHammer") and has("SuperBoots"))
+	return ((yoshi()) and (tube()) and (has("OldLetter"))) or (has("UltraHammer") and has("SuperBoots") and has("pipe_on"))
 	end
 
 function general_white()
@@ -126,7 +138,7 @@ function pirates_grotto()
 	end
 
 function poshley_heights() -- General regional access to Poshley Heights, not the Sanctum.
-	return ((poshleysanctum())) or (has("UltraHammer") and has("SuperBoots"))
+	return ((poshleysanctum())) or (has("UltraHammer") and has("SuperBoots") and has("pipe_on"))
 	end
 
 function poshleysanctum()  -- Access to the Sanctum is gated by the chapter 6 story, which is required to access the sanctum, as opposed to poshley_heights.
@@ -135,6 +147,10 @@ function poshleysanctum()  -- Access to the Sanctum is gated by the chapter 6 st
 
 function htcastle()
 	return ((has("PlaneCurse")) or (yoshi())) and has("SunStone") and has("MoonStone")
+	end
+
+function invisible()
+	return false
 	end
 
 function riddle_tower()

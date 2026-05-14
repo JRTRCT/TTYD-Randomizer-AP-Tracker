@@ -85,13 +85,10 @@ function onClear(slot_data)
     -- Apply enemy logic settings if necessary
     local enemy_rando_obj = Tracker:FindObjectForCode("enemy_randomizer")
     local tattlesanity_obj = Tracker:FindObjectForCode("tattlesanity")
-    if enemy_rando_obj and tattlesanity_obj then
-        if (enemy_rando_obj.CurrentStage == "1" or enemy_rando_obj.CurrentStage == "2") and tattlesanity_obj.CurrentStage == "1" then
-            ENEMY_DICT = slot_data["tattle_rules"]
-            if not ENEMY_DICT then
-                enemy_rando_obj.CurrentStage = "0"
-            end
-        end
+    ENEMY_DICT = slot_data["tattle_rules"]
+    if not ENEMY_DICT then
+        enemy_rando_obj.CurrentStage = "0"
+        print("Empty enemy dict")
     end
 
     -- Map Datastorage
