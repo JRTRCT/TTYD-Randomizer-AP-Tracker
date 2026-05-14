@@ -106,7 +106,7 @@
                 "name": "Shady Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/S. Paratroopa.png","chest_opened_img": "/images/tattles/S. Paratroopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|S. Paratroopa"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Shady Paratroopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 440}]
             },
             {
@@ -120,7 +120,7 @@
                 "name": "Dark Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/D. Parakoopa.png","chest_opened_img": "/images/tattles/D. Parakoopa_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|3],enemy_vanilla","^$enemy_rando|D. Paratroopa"],
+                "access_rules":["$pit,[$stars|3],enemy_vanilla","^$enemy_rando|Dark Paratroopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 558}]
             },
             {
@@ -134,7 +134,7 @@
                 "name": "Dark Koopatrol",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/D. Koopatrol.png","chest_opened_img": "/images/tattles/D. Koopatrol_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$stars|4],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|D. Koopatrol"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$stars|4],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Dark Koopatrol"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 558}]
             },
             {
@@ -330,7 +330,7 @@
                 "name": "Spinia",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spinia.png","chest_opened_img": "/images/tattles/Spinia_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["enemy_vanilla","^$enemy_rando|Spinia"],
+                "access_rules":[],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1446}]
             },
             {
@@ -400,7 +400,7 @@
                 "name": "Putrid Piranha",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Putrid Piranha.png","chest_opened_img": "/images/tattles/Putrid Piranha_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$keelhaul_key,enemy_vanilla","[$keelhaul_key],$HRGlvl2,enemy_vanilla","^$enemy_rando|Putrid Pirahna"],
+                "access_rules":["$keelhaul_key,enemy_vanilla","[$keelhaul_key],$HRGlvl2,enemy_vanilla","^$enemy_rando|Putrid Piranha"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1836}]
             },
             {
@@ -748,7 +748,7 @@
                 "name": "X-Naut",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/X-Naut.png","chest_opened_img": "/images/tattles/X-Naut_Dim.png",
                 "visibility_rules":["Ch2","Ch7"],
-                "access_rules":["Flurrie,$bogglywoods,enemy_vanilla","$moon,enemy_vanilla","^$enemy_rando|X-naut"],
+                "access_rules":["Flurrie,$bogglywoods,enemy_vanilla","$moon,enemy_vanilla","^$enemy_rando|X-Naut"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1446}]
             },
             {
