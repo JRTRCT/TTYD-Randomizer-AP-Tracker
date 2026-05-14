@@ -118,7 +118,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -131,7 +130,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -144,7 +142,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -157,7 +154,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -170,7 +166,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -764,7 +759,6 @@
                     {
                         "name": "Rogueport Center (Toad Bros. Bazaar) - Contact Lens Purchase Dummy",
                         "visibility_rules": [
-                            "HiddenOn",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1223,7 +1217,6 @@
                     {
                         "name": "Pit of 100 Trials Charlieton - Fire Flower Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1234,7 +1227,6 @@
                     {
                         "name": "Pit of 100 Trials Charlieton - Honey Syrup Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1245,7 +1237,6 @@
                     {
                         "name": "Pit of 100 Trials Charlieton - Maple Syrup Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1256,7 +1247,6 @@
                     {
                         "name": "Pit of 100 Trials Charlieton - Mushroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1267,7 +1257,6 @@
                     {
                         "name": "Pit of 100 Trials Charlieton - Super Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1278,7 +1267,6 @@
                     {
                         "name": "Pit of 100 Trials Charlieton - Thunder Rage Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1418,7 +1406,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 10 - Sleepy Stomp Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1429,7 +1416,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 20 - Fire Drive Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1440,7 +1426,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 30 - Zap Tap Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1451,7 +1436,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 40 - Pity Flower Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1462,7 +1446,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 50 - Strange Sack Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1473,7 +1456,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 60 - Double Dip Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1484,7 +1466,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 70 - Double Dip P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1495,7 +1476,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 80 - Bump Attack Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1506,7 +1486,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 90 - Lucky Day Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1517,7 +1496,6 @@
                     {
                         "name": "Pit of 100 Trials Floor 100 - Return Postage Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1675,7 +1653,6 @@
                     {
                         "name": "Rogueport Eastside - Power Smash Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1688,7 +1665,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1702,7 +1678,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1715,7 +1690,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1729,7 +1703,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -1745,7 +1718,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1758,7 +1730,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1772,7 +1743,6 @@
                             "{PaperCurse}"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1786,7 +1756,6 @@
                             "PaperCurse"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1799,7 +1768,6 @@
                             "[$yoshi],SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1870,7 +1838,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1895,7 +1862,6 @@
                             "BoatCurse"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1958,7 +1924,6 @@
                             "BlimpTicket"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -1971,7 +1936,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -2107,7 +2071,6 @@
                     {
                         "name": "Rogueport Westside - Blimp Ticket Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2118,7 +2081,6 @@
                     {
                         "name": "Rogueport Westside - Train Ticket Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2129,7 +2091,6 @@
                     {
                         "name": "Rogueport Westside - Lottery Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2142,7 +2103,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2155,7 +2115,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2171,7 +2130,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -2184,7 +2142,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -2197,7 +2154,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -2210,7 +2166,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -2447,7 +2402,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Cake Mix Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2458,7 +2412,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Super Shroom 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2469,7 +2422,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Refund Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2480,7 +2432,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Super Appeal Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2491,7 +2442,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Power Jump Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2502,7 +2452,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Maple Syrup Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2513,7 +2462,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - FP Plus Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2524,7 +2472,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - HP Plus Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2535,7 +2482,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Power Smash Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2546,7 +2492,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Multibounce Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2557,7 +2502,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - HP Plus P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2568,7 +2512,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Gold Bar x3 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2579,7 +2522,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Hammer Throw Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2590,7 +2532,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Power Rush Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2601,7 +2542,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Power Rush P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2612,7 +2552,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Tornado Jump Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2623,7 +2562,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Jammin' Jelly Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2634,7 +2572,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Money Money Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2645,7 +2582,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Quake Hammer Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2656,7 +2592,6 @@
                     {
                         "name": "Rogueport Westside (Pianta Parlor) - Ultra Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2753,7 +2688,6 @@
                     {
                         "name": "Thunder Bolt Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2764,7 +2698,6 @@
                     {
                         "name": "Dizzy Dial Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2775,7 +2708,6 @@
                     {
                         "name": "Life Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2786,7 +2718,6 @@
                     {
                         "name": "Dried Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2797,7 +2728,6 @@
                     {
                         "name": "Volt Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2808,7 +2738,6 @@
                     {
                         "name": "Super Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2957,7 +2886,6 @@
                     {
                         "name": "Boggly Woods Shadow Sirens Room - Necklace Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2968,7 +2896,6 @@
                     {
                         "name": "Boggly Woods Shadow Sirens Room - Honey Syrup Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2979,7 +2906,6 @@
                     {
                         "name": "Boggly Woods Shadow Sirens Room - Sleepy Sheep Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -2990,7 +2916,6 @@
                     {
                         "name": "Boggly Woods Tree View - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3001,7 +2926,6 @@
                     {
                         "name": "Boggly Woods Tree View - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3014,7 +2938,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3027,7 +2950,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3040,7 +2962,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3057,7 +2978,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3065,7 +2985,6 @@
                     {
                         "name": "Boggly Woods Outside Great Tree - FP Plus Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3448,7 +3367,6 @@
                     {
                         "name": "Great Tree Entrance - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3464,7 +3382,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3472,7 +3389,6 @@
                     {
                         "name": "Great Tree Upper Duplex - Power Punch Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3489,7 +3405,6 @@
                             "PaperCurse,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3497,7 +3412,6 @@
                     {
                         "name": "Great Tree Red Key Room - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3508,7 +3422,6 @@
                     {
                         "name": "Great Tree Red Key Room - Red Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3521,7 +3434,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3532,7 +3444,6 @@
                     {
                         "name": "Great Tree Entrance - Puni Orb Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3545,7 +3456,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3556,7 +3466,6 @@
                     {
                         "name": "Great Tree Bubble Room - Thunder Rage Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3569,7 +3478,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3580,7 +3488,6 @@
                     {
                         "name": "Great Tree Zigzag Room - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3593,7 +3500,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3609,7 +3515,6 @@
                             "$tenpunis"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3619,7 +3524,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3630,7 +3534,6 @@
                     {
                         "name": "Great Tree Blue Key Room - Charge Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3644,7 +3547,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3657,7 +3559,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3673,7 +3574,6 @@
                             "[$hundredpunis],$ninetypunis,PaperCurse"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3681,7 +3581,6 @@
                     {
                         "name": "Great Tree 100-Puni Pedestal - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3697,7 +3596,6 @@
                             "[$hundredpunis],$ninetypunis"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3705,7 +3603,6 @@
                     {
                         "name": "Great Tree Lower Duplex - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3716,7 +3613,6 @@
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3730,7 +3626,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3745,7 +3640,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3757,7 +3651,6 @@
                     {
                         "name": "Great Tree Elevator Pedestal - Mushroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3775,7 +3668,6 @@
                             "$hundredpunis,$yoshi,[Koops],SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -3785,7 +3677,6 @@
                         "chest_unopened_img": "/images/items/EmeraldStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3797,7 +3688,6 @@
                     {
                         "name": "Great Tree Entrance - Mystic Egg Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3809,7 +3699,6 @@
                     {
                         "name": "Great Tree Red Key Room - Mushroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3910,7 +3799,6 @@
                     {
                         "name": "Honey Syrup Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3921,7 +3809,6 @@
                     {
                         "name": "HP Drain Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3932,7 +3819,6 @@
                     {
                         "name": "Ice Storm Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3943,7 +3829,6 @@
                     {
                         "name": "Mini Mr.Mini Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3954,7 +3839,6 @@
                     {
                         "name": "Mushroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -3965,7 +3849,6 @@
                     {
                         "name": "Mystery Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4078,7 +3961,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4091,7 +3973,6 @@
                             "PaperCurse"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4099,7 +3980,6 @@
                     {
                         "name": "Boggly Woods Outside Flurrie's House - Volt Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4110,7 +3990,6 @@
                     {
                         "name": "Boggly Woods Flurrie's House - Flurrie Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4126,7 +4005,6 @@
                             "PaperCurse,Necklace,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4136,7 +4014,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4456,7 +4333,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4466,7 +4342,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4477,7 +4352,6 @@
                     {
                         "name": "Rogueport Sewers East Enemy Hall - Fire Flower Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4488,7 +4362,6 @@
                     {
                         "name": "Rogueport Sewers East Enemy Hall - Mushroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4501,7 +4374,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4512,7 +4384,6 @@
                     {
                         "name": "Rogueport Sewers Spania Room - Defend Plus Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4528,7 +4399,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4542,7 +4412,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4556,7 +4425,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4570,7 +4438,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4582,7 +4449,6 @@
                     {
                         "name": "Rogueport Sewers Black Key Room - Black Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4595,7 +4461,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4608,7 +4473,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4624,7 +4488,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4632,7 +4495,6 @@
                     {
                         "name": "Rogueport Sewers Boggly Woods Pipe - Damage Dodge Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4650,7 +4512,6 @@
                             "[PaperCurse],$HRGlvl2"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4660,7 +4521,6 @@
                         "chest_unopened_img": "/images/items/BlackChest.png",
                         "chest_opened_img": "/images/items/BlackChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4676,7 +4536,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4686,7 +4545,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4699,7 +4557,6 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4712,7 +4569,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4731,7 +4587,6 @@
                             "[$ttyd],$HRGlvl2,Flurrie"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4745,7 +4600,6 @@
                             "[$pit],$HRGlvl1,Flurrie"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4945,7 +4799,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4957,7 +4810,6 @@
                     {
                         "name": "Rogueport Sewers West Enemy Hall - Gradual Syrup Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4969,7 +4821,6 @@
                     {
                         "name": "Rogueport Sewers West Enemy Hall - Slow Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -4987,7 +4838,6 @@
                             "[$sewerwestground],$HRGlvl1"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -4997,7 +4847,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5016,7 +4865,6 @@
                             "[$twilight_town],$HRG_twilight_town"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5026,7 +4874,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5040,7 +4887,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5054,7 +4900,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5071,7 +4916,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5085,7 +4929,6 @@
                             "[$sewerwest],$HRG_sewerwest"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5099,7 +4942,6 @@
                             "[$sewerwest],$HRG_sewerwest,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5113,7 +4955,6 @@
                             "[$sewerwest],$HRG_sewerwest"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5207,7 +5048,6 @@
                     {
                         "name": "Slow Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5218,7 +5058,6 @@
                     {
                         "name": "Gradual Syrup Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5229,7 +5068,6 @@
                     {
                         "name": "Ultra Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5240,7 +5078,6 @@
                     {
                         "name": "Jammin' Jelly Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5251,7 +5088,6 @@
                     {
                         "name": "Gold Bar Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5262,7 +5098,6 @@
                     {
                         "name": "Gold Bar x3 Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5451,7 +5286,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5462,7 +5296,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5473,7 +5306,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 3 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5484,7 +5316,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 4 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5495,7 +5326,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 5 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5506,7 +5336,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 6 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5517,7 +5346,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 7 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5528,7 +5356,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 8 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5539,7 +5366,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 9 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5550,7 +5376,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 10 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5561,7 +5386,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 11 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5572,7 +5396,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 12 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5583,7 +5406,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 13 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5594,7 +5416,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 14 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5605,7 +5426,6 @@
                     {
                         "name": "Rogueport Sewers Town - Dazzle Item 15 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5771,7 +5591,6 @@
                     {
                         "name": "Glitzville Main Square - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5784,7 +5603,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5797,7 +5615,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5813,7 +5630,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5826,7 +5642,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5839,7 +5654,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5852,7 +5666,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5867,7 +5680,6 @@
                             "SuperBoots,{}"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -5875,7 +5687,6 @@
                     {
                         "name": "Glitzville Main Square - Storage Key 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5886,7 +5697,6 @@
                     {
                         "name": "Glitzville Main Square - Super Hammer Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -5897,7 +5707,6 @@
                     {
                         "name": "Glitzville Main Square - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6017,7 +5826,6 @@
                     {
                         "name": "Souvenir Shop - Earth Quake Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6028,7 +5836,6 @@
                     {
                         "name": "Souvenir Shop - Thunder Bolt Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6039,7 +5846,6 @@
                     {
                         "name": "Souvenir Shop - Power Punch Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6050,7 +5856,6 @@
                     {
                         "name": "Souvenir Shop - Repel Cape Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6061,7 +5866,6 @@
                     {
                         "name": "Souvenir Shop - Point Swap Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6072,7 +5876,6 @@
                     {
                         "name": "Souvenir Shop - Super Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6083,7 +5886,6 @@
                     {
                         "name": "Hot Dog Stand - Hot Dog Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6094,7 +5896,6 @@
                     {
                         "name": "Businessman - Hot Sauce Purchase Dummy",
                         "visibility_rules": [
-                            "HiddenOn",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6305,7 +6106,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6313,7 +6113,6 @@
                     {
                         "name": "Glitzville Lobby - Storage Key 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6324,7 +6123,6 @@
                     {
                         "name": "Glitzville Hall - Last Stand Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6340,7 +6138,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6353,7 +6150,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6361,7 +6157,6 @@
                     {
                         "name": "Glitzville Storage Room - Charge P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6372,7 +6167,6 @@
                     {
                         "name": "Glitzville Storage Room - HP Plus P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6385,7 +6179,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6401,7 +6194,6 @@
                             "SuperBoots,StorageKey1"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6409,7 +6201,6 @@
                     {
                         "name": "Glitzville Minor-League Room - Dubious Paper Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6421,7 +6212,6 @@
                     {
                         "name": "Glitzville Minor-League Room - Yoshi Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6433,7 +6223,6 @@
                     {
                         "name": "Glitzville Major-League Room - Champ's Belt Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6444,7 +6233,6 @@
                     {
                         "name": "Glitzville Major-League Room - Ice Storm Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6460,7 +6248,6 @@
                             "Flurrie,Storagekey1,StorageKey2,$yoshi,SuperHammer"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6470,7 +6257,6 @@
                         "chest_unopened_img": "/images/items/GoldStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6571,7 +6357,6 @@
                     {
                         "name": "Moon Landing Site - Stopwatch Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6582,7 +6367,6 @@
                     {
                         "name": "Moon Fortress View - Power Punch Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6598,7 +6382,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6606,7 +6389,6 @@
                     {
                         "name": "Moon East Room 1 - Volt Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6617,7 +6399,6 @@
                     {
                         "name": "Moon West Room 1 - Courage Shell Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6628,7 +6409,6 @@
                     {
                         "name": "Moon West Room 2 - Ruin Powder Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6789,7 +6569,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6802,7 +6581,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6815,7 +6593,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6828,7 +6605,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6841,7 +6617,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6854,7 +6629,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6870,7 +6644,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6878,7 +6651,6 @@
                     {
                         "name": "Petalburg Eastside - Mega Rush P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -6896,7 +6668,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -6904,7 +6675,6 @@
                     {
                         "name": "Petalburg Eastside - Turtley Leaf Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7089,7 +6859,6 @@
                     {
                         "name": "Petal Meadows Entrance - Mushroom 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7100,7 +6869,6 @@
                     {
                         "name": "Petal Meadows Entrance - Mushroom 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7116,7 +6884,6 @@
                             "PlaneCurse"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -7124,7 +6891,6 @@
                     {
                         "name": "Petal Meadows Field - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7137,7 +6903,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7148,7 +6913,6 @@
                     {
                         "name": "Petal Meadows Field - Happy Heart Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7162,7 +6926,6 @@
                     {
                         "name": "Petal Meadows Field - Horsetail Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7173,7 +6936,6 @@
                     {
                         "name": "Petal Meadows Bridge Room - Koops Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7186,7 +6948,6 @@
                     {
                         "name": "Petal Meadows Bridge Room - Coin 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7203,7 +6964,6 @@
                             "{SuperBoots,SuperHammer}"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -7211,7 +6971,6 @@
                     {
                         "name": "Petal Meadows Bridge Room - Coin 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7222,7 +6981,6 @@
                     {
                         "name": "Petal Meadows Bridge Room - Fire Flower Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7235,7 +6993,6 @@
                     {
                         "name": "Petal Meadows Bridge Room - Mystery Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7407,7 +7164,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -7415,7 +7171,6 @@
                     {
                         "name": "Petal Meadows First Fort Exterior - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7426,7 +7181,6 @@
                     {
                         "name": "Petal Meadows First Fort Exterior - POW Block Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7437,7 +7191,6 @@
                     {
                         "name": "Petal Meadows Second Fort Exterior - Coin 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7448,7 +7201,6 @@
                     {
                         "name": "Petal Meadows Second Fort Exterior - Coin 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7459,7 +7211,6 @@
                     {
                         "name": "Petal Meadows Second Fort Exterior - POW Block Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7470,7 +7221,6 @@
                     {
                         "name": "Petal Meadows Third Fort Exterior - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7481,7 +7231,6 @@
                     {
                         "name": "Petal Meadows Third Fort Exterior - Fire Flower Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7492,7 +7241,6 @@
                     {
                         "name": "Petal Meadows Third Fort Exterior - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7505,7 +7253,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7516,7 +7263,6 @@
                     {
                         "name": "Petal Meadows Sewers West Key Room - Moon Stone Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7527,7 +7273,6 @@
                     {
                         "name": "Petal Meadows Sewers East Key Room - Sun Stone Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7854,7 +7599,6 @@
                     {
                         "name": "Hooktail's Castle Drawbridge - HP Plus Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7869,7 +7613,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7881,7 +7624,6 @@
                     {
                         "name": "Hooktail's Castle Red Bones Room - Castle Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7899,7 +7641,6 @@
                             "$htcastle,SuperBoots,{}"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -7907,7 +7648,6 @@
                     {
                         "name": "Hooktail's Castle Stair Switch Room - Castle Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7921,7 +7661,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7937,7 +7676,6 @@
                             "$htcastle,Koops"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -7951,7 +7689,6 @@
                             "$htcastle,[Koops],$yoshi,Bobbery,CastleKey2"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -7959,7 +7696,6 @@
                     {
                         "name": "Hooktail's Castle Stair Central Staircase - Castle Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7971,7 +7707,6 @@
                     {
                         "name": "Hooktail's Castle Stair Central Staircase - Last Stand P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -7985,7 +7720,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8003,7 +7737,6 @@
                             "$htcastle,[Koops],Bobbery"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8013,7 +7746,6 @@
                         "chest_unopened_img": "/images/items/BlackChest.png",
                         "chest_opened_img": "/images/items/BlackChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8026,7 +7758,6 @@
                     {
                         "name": "Hooktail's Castle Prison Entrance - Attack FX R Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8039,7 +7770,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8054,7 +7784,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8066,7 +7795,6 @@
                     {
                         "name": "Hooktail's Castle Life Shroom Room - Life Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8086,7 +7814,6 @@
                             "$htcastle,CastleKey3,[Koops],$yoshi,Bobbery,{}"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8096,7 +7823,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8110,7 +7836,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8124,7 +7849,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8138,7 +7862,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8152,7 +7875,6 @@
                         "chest_unopened_img": "/images/items/DiamondStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8335,7 +8057,6 @@
                     {
                         "name": "Twilight Town Leftside - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8348,7 +8069,6 @@
                         "chest_unopened_img": "/images/items/InnCoupon.png",
                         "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8364,7 +8084,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8377,7 +8096,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8385,7 +8103,6 @@
                     {
                         "name": "Twilight Town Leftside - Superbombomb Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8396,7 +8113,6 @@
                     {
                         "name": "Twilight Town Leftside - Vivian Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8412,7 +8128,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8420,7 +8135,6 @@
                     {
                         "name": "Twilight Town Rightside (Twilight Shop) - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8431,7 +8145,6 @@
                     {
                         "name": "Twilight Town Rightside (Twilight Shop Back) - Boo's Sheet Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8444,7 +8157,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8455,7 +8167,6 @@
                     {
                         "name": "Twilight Town Rightside (Twilight Shop Back) - Jammin' Jelly Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8466,7 +8177,6 @@
                     {
                         "name": "Twilight Town Rightside (Twilight Shop Back) - Life Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8479,7 +8189,6 @@
                         "chest_unopened_img": "/images/items/BlackChest.png",
                         "chest_opened_img": "/images/items/BlackChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8579,7 +8288,6 @@
                     {
                         "name": "Thunder Rage Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8590,7 +8298,6 @@
                     {
                         "name": "Spite Pouch Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8601,7 +8308,6 @@
                     {
                         "name": "Stopwatch Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8612,7 +8318,6 @@
                     {
                         "name": "Maple Syrup Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8623,7 +8328,6 @@
                     {
                         "name": "Super Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8634,7 +8338,6 @@
                     {
                         "name": "Life Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8815,7 +8518,6 @@
                     {
                         "name": "Twilight Trail Entrance - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8826,7 +8528,6 @@
                     {
                         "name": "Twilight Trail Entrance - Black Key 3 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8837,7 +8538,6 @@
                     {
                         "name": "Twilight Trail Hyper Goomba Room - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8848,7 +8548,6 @@
                     {
                         "name": "Twilight Trail Hyper Goomba Room - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8859,7 +8558,6 @@
                     {
                         "name": "Twilight Trail Hyper Goomba Room - Super Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8870,7 +8568,6 @@
                     {
                         "name": "Twilight Trail Fallen Tree - Shop Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8889,7 +8586,6 @@
                             "$tube"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8902,7 +8598,6 @@
                             "$tube,Flurrie"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -8910,7 +8605,6 @@
                     {
                         "name": "Twilight Trail Dark Woods First Room - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8921,7 +8615,6 @@
                     {
                         "name": "Twilight Trail Dark Woods First Room - Earthquake Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8934,7 +8627,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8945,7 +8637,6 @@
                     {
                         "name": "Twilight Trail Dark Woods Third Room - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -8958,7 +8649,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9255,7 +8945,6 @@
                     {
                         "name": "Twilight Trail Steeple Exterior - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9271,7 +8960,6 @@
                             "$steeple"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9279,7 +8967,6 @@
                     {
                         "name": "Creepy Steeple Main Hall - Lucky Start Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9290,7 +8977,6 @@
                     {
                         "name": "Creepy Steeple Main Hall - Steeple Key 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9303,7 +8989,6 @@
                     {
                         "name": "Creepy Steeple North Hall - Golden Leaf Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9316,7 +9001,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9329,7 +9013,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9342,7 +9025,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9358,7 +9040,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9368,7 +9049,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9384,7 +9064,6 @@
                             "Vivian"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9394,7 +9073,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9407,7 +9085,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9420,7 +9097,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9436,7 +9112,6 @@
                             "Vivian,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9446,7 +9121,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9459,7 +9133,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9472,7 +9145,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9485,7 +9157,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9498,7 +9169,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9514,7 +9184,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9524,7 +9193,6 @@
                         "chest_unopened_img": "/images/items/RubyStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9870,7 +9538,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9878,7 +9545,6 @@
                     {
                         "name": "Keelhaul Key Landing Site - Whacka Bumps Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9889,7 +9555,6 @@
                     {
                         "name": "Keelhaul Key Town - Chuckola Cola Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9905,7 +9570,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9918,7 +9582,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9926,7 +9589,6 @@
                     {
                         "name": "Keelhaul Key Jungle Entrance - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9937,7 +9599,6 @@
                     {
                         "name": "Keelhaul Key Jungle Entrance - Courage Shell Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9950,7 +9611,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9961,7 +9621,6 @@
                     {
                         "name": "Keelhaul Key Jungle Entrance - Keel Mango Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9977,7 +9636,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -9985,7 +9643,6 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -9996,7 +9653,6 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Coin 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10007,7 +9663,6 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Coin 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10018,7 +9673,6 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Mini Mr.Mini Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10031,7 +9685,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10048,7 +9701,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -10056,7 +9708,6 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Jammin' Jelly Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10069,7 +9720,6 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Thunder Rage Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10080,7 +9730,6 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Coconut 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10091,7 +9740,6 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Coconut 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10102,7 +9750,6 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Ice Power Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10113,7 +9760,6 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10126,7 +9772,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10137,7 +9782,6 @@
                     {
                         "name": "Keelhaul Key Grotto Entrance - Bobbery Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10148,7 +9792,6 @@
                     {
                         "name": "Keelhaul Key Grotto Entrance - Skull Gem Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10159,7 +9802,6 @@
                     {
                         "name": "Keelhaul Key Grotto Entrance - Spite Pouch Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10175,7 +9817,6 @@
                             "$yoshi"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -10183,7 +9824,6 @@
                     {
                         "name": "Keelhaul Key Grotto Entrance - Wedding Ring Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10283,7 +9923,6 @@
                     {
                         "name": "Ice Storm Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10294,7 +9933,6 @@
                     {
                         "name": "Fire Flower Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10305,7 +9943,6 @@
                     {
                         "name": "Sleepy Sheep Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10316,7 +9953,6 @@
                     {
                         "name": "Fright Mask Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10327,7 +9963,6 @@
                     {
                         "name": "Honey Syrup Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10338,7 +9973,6 @@
                     {
                         "name": "Super Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10599,7 +10233,6 @@
                     {
                         "name": "Pirate's Grotto Entrance - Ruin Powder Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10610,7 +10243,6 @@
                     {
                         "name": "Pirate's Grotto Gate Handle Room - Gate Handle Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10625,7 +10257,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10641,7 +10272,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -10654,7 +10284,6 @@
                             "$yoshi,Bobbery,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -10662,7 +10291,6 @@
                     {
                         "name": "Pirate's Grotto Storeroom - Grotto Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10675,7 +10303,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10691,7 +10318,6 @@
                             "$yoshi,Bobbery"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -10699,7 +10325,6 @@
                     {
                         "name": "Pirate's Grotto Staircase - Coin Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10712,7 +10337,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10725,7 +10349,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10741,7 +10364,6 @@
                             "$yoshi,GrottoKey,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -10749,7 +10371,6 @@
                     {
                         "name": "Pirate's Grotto Chest Boat - Black Key 4 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10763,7 +10384,6 @@
                         "chest_unopened_img": "/images/items/BlackChest.png",
                         "chest_opened_img": "/images/items/BlackChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10775,7 +10395,6 @@
                     {
                         "name": "Pirate's Grotto Chest Boat - P-Down D-Up Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10787,7 +10406,6 @@
                     {
                         "name": "Pirate's Grotto Barrel Room - 10 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10801,7 +10419,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10815,7 +10432,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -10828,7 +10444,6 @@
                         "chest_unopened_img": "/images/items/SapphireStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11018,7 +10633,6 @@
                     {
                         "name": "Poshley Heights Station - Goldbob Guide Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11031,7 +10645,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11047,7 +10660,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11060,7 +10672,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11073,7 +10684,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11083,7 +10693,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11096,7 +10705,6 @@
                         "chest_unopened_img": "/images/items/GarnetStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11107,7 +10715,6 @@
                     {
                         "name": "Poshley Heights Sanctum Altar - L Emblem Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11120,7 +10727,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11133,7 +10739,6 @@
                         "chest_unopened_img": "/images/items/Coin.png",
                         "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11144,7 +10749,6 @@
                     {
                         "name": "Poshley Heights Downtown - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11157,7 +10761,6 @@
                         "chest_unopened_img": "/images/items/InnCoupon.png",
                         "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11173,7 +10776,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11342,7 +10944,6 @@
                     {
                         "name": "Riverside Station Drawbridge - Station Key 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11353,7 +10954,6 @@
                     {
                         "name": "Riverside Station Entrance - Close Call P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11369,7 +10969,6 @@
                             "StationKey1,$tube"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11377,7 +10976,6 @@
                     {
                         "name": "Riverside Station Clockwork Room - Station Key 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11390,7 +10988,6 @@
                     {
                         "name": "Riverside Station Back Exterior - Thunder Rage Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11403,7 +11000,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11414,7 +11010,6 @@
                     {
                         "name": "Riverside Station Back Exterior - HP Plus Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11425,7 +11020,6 @@
                     {
                         "name": "Riverside Station Tube Mode Maze - Dried Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11436,7 +11030,6 @@
                     {
                         "name": "Riverside Station Tube Mode Maze - P-Up D-Down Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11449,7 +11042,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11462,7 +11054,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11474,7 +11065,6 @@
                     {
                         "name": "Riverside Station Ultra Boots Room - Elevator Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11729,7 +11319,6 @@
                     {
                         "name": "Excess Express Locomotive - Autograph Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11747,7 +11336,6 @@
                             "[$westside],TrainTicket,$HRGlvl1,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11755,7 +11343,6 @@
                     {
                         "name": "Excess Express Front Passenger Car - Vital Paper Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11767,7 +11354,6 @@
                     {
                         "name": "Excess Express Front Passenger Car - 30 Coins Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11781,7 +11367,6 @@
                     {
                         "name": "Excess Express Middle Passenger Car - Blanket Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11793,7 +11378,6 @@
                     {
                         "name": "Excess Express Middle Passenger Car - Briefcase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11805,7 +11389,6 @@
                     {
                         "name": "Excess Express Middle Passenger Car - Dried Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11817,7 +11400,6 @@
                     {
                         "name": "Excess Express Middle Passenger Car - Galley Pot Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11829,7 +11411,6 @@
                     {
                         "name": "Excess Express Middle Passenger Car - Gold Ring Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11841,7 +11422,6 @@
                     {
                         "name": "Excess Express Middle Passenger Car - Shell Earrings Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11855,7 +11435,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11873,7 +11452,6 @@
                             "[$westside],TrainTicket,$HRGlvl1,SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11887,7 +11465,6 @@
                             "[$westside],TrainTicket,$HRGlvl1,GalleyPot"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11901,7 +11478,6 @@
                             "[$westside],TrainTicket,$HRGlvl1,ShellEarrings"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11909,7 +11485,6 @@
                     {
                         "name": "Excess Express Back Passenger Car - Mushroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11923,7 +11498,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -11941,7 +11515,6 @@
                             "[$westside],TrainTicket,$HRGlvl1"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -11949,7 +11522,6 @@
                     {
                         "name": "Excess Express Storage Car - Ragged Diary Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12053,7 +11625,6 @@
                     {
                         "name": "Thunder Rage Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12064,7 +11635,6 @@
                     {
                         "name": "Mystery Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12075,7 +11645,6 @@
                     {
                         "name": "Boo's Sheet Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12086,7 +11655,6 @@
                     {
                         "name": "Tasty Tonic Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12097,7 +11665,6 @@
                     {
                         "name": "Maple Syrup Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12108,7 +11675,6 @@
                     {
                         "name": "Super Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12291,7 +11857,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12307,7 +11872,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12317,7 +11881,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12333,7 +11896,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12343,7 +11905,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12359,7 +11920,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12372,7 +11932,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12380,7 +11939,6 @@
                     {
                         "name": "Fahr Outpost Town - Inn Coupon Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12393,7 +11951,6 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12406,7 +11963,6 @@
                         "chest_unopened_img": "/images/items/InnCoupon.png",
                         "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12422,7 +11978,6 @@
                             "SuperBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_full",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12435,7 +11990,6 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12531,7 +12085,6 @@
                     {
                         "name": "Shooting Star Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12542,7 +12095,6 @@
                     {
                         "name": "Ice Storm Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12553,7 +12105,6 @@
                     {
                         "name": "Ruin Powder Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12564,7 +12115,6 @@
                     {
                         "name": "Stopwatch Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12575,7 +12125,6 @@
                     {
                         "name": "Maple Syrup Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12586,7 +12135,6 @@
                     {
                         "name": "Super Shroom Purchase Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12861,7 +12409,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12872,7 +12419,6 @@
                     {
                         "name": "X-Naut Fortress Elevator Key Room - Super Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12883,7 +12429,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Coin 1 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12894,7 +12439,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Coin 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12905,7 +12449,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Coin 3 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12916,7 +12459,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Coin 4 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12927,7 +12469,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Coin 5 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12938,7 +12479,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Coin 6 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12949,7 +12489,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Feeling Fine Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12960,7 +12499,6 @@
                     {
                         "name": "X-Naut Fortress Crane Room - Feeling Fine P Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12976,7 +12514,6 @@
                             "ElevatorKey1,Cog"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -12984,7 +12521,6 @@
                     {
                         "name": "X-Naut Fortress Quiz Room - Elevator Key 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -12997,7 +12533,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13008,7 +12543,6 @@
                     {
                         "name": "X-Naut Fortress Card Key Room A - Sleepy Sheep Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13019,7 +12553,6 @@
                     {
                         "name": "X-Naut Fortress Teleporter Room - Cog Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13037,7 +12570,6 @@
                             "ElevatorKey1,UltraBoots"
                         ],
                         "visibility_rules": [
-                            "piecesanity_no_panel",
                             "$invisible"
                         ],
                         "item_count": 1
@@ -13045,7 +12577,6 @@
                     {
                         "name": "X-Naut Fortress Office - Card Key 2 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13058,7 +12589,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13069,7 +12599,6 @@
                     {
                         "name": "X-Naut Fortress Card Key Room B - HP Drain Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13080,7 +12609,6 @@
                     {
                         "name": "X-Naut Fortress Factory - Card Key 4 Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13091,7 +12619,6 @@
                     {
                         "name": "X-Naut Fortress Factory - Ultra Shroom Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13104,7 +12631,6 @@
                         "chest_unopened_img": "/images/items/CrystalStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13241,7 +12767,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13254,7 +12779,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13267,7 +12791,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13280,7 +12803,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13293,7 +12815,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13306,7 +12827,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13319,7 +12839,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13332,7 +12851,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13471,7 +12989,6 @@
                     {
                         "name": "Palace of Shadow Swoopula Staircase - Stopwatch Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13482,7 +12999,6 @@
                     {
                         "name": "Palace of Shadow Bullet Bill Hallway - Shooting Star Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13495,7 +13011,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13506,7 +13021,6 @@
                     {
                         "name": "Palace of Shadow Fire Trap Room - Boo's Sheet Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13517,7 +13031,6 @@
                     {
                         "name": "Palace of Shadow Dark Bones Room - Palace Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13529,7 +13042,6 @@
                     {
                         "name": "Palace of Shadow Second Bullet Bill Hallway - Ultra Shroom Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13541,7 +13053,6 @@
                     {
                         "name": "Palace of Shadow Large Open Room - Coin Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13555,7 +13066,6 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13567,7 +13077,6 @@
                     {
                         "name": "Palace of Shadow Large Open Room - Jammin' Jelly Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13786,7 +13295,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13798,7 +13306,6 @@
                     {
                         "name": "Palace of Shadow Gloomtail Room - Ultra Shroom Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13810,7 +13317,6 @@
                     {
                         "name": "Palace of Shadow Gloomtail Room - Jammin' Jelly Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13822,7 +13328,6 @@
                     {
                         "name": "Palace of Shadow Far Hallway 1 - Thunder Rage Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13834,7 +13339,6 @@
                     {
                         "name": "Palace of Shadow Far Backroom 1 - Life Shroom Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13845,7 +13349,6 @@
                     {
                         "name": "Palace of Shadow Far Backroom 1 - Repel Cape Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13857,7 +13360,6 @@
                     {
                         "name": "Palace of Shadow Far Backroom 2 - Life Shroom Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13868,7 +13370,6 @@
                     {
                         "name": "Palace of Shadow Far Backroom 2 - Palace Key Dummy",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13881,7 +13382,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13893,7 +13393,6 @@
                     {
                         "name": "Palace of Shadow Far Backroom 3 - Coin Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13906,7 +13405,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13917,7 +13415,6 @@
                     {
                         "name": "Palace of Shadow Far Backroom 3 - Point Swap Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13928,7 +13425,6 @@
                     {
                         "name": "Palace of Shadow Far Hallway 4 - Life Shroom Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13939,7 +13435,6 @@
                     {
                         "name": "Palace of Shadow Far Hallway 4 - Shooting Star Dummy",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13952,7 +13447,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -13965,7 +13459,6 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [
-                            "YesChap8",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -14024,7 +13517,6 @@
                     {
                         "name": "Goal: Defeat Shadow Queen Dummy",
                         "visibility_rules": [
-                            "defeat_shadow_queen",
                             "$invisible"
                         ],
                         "access_rules": [
@@ -14037,7 +13529,6 @@
                     {
                         "name": "Goal: Bonetail Dummy",
                         "visibility_rules": [
-                            "defeat_bonetail",
                             "$invisible"
                         ],
                         "access_rules": [
