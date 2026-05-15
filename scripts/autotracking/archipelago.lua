@@ -118,7 +118,6 @@ function onClear(slot_data)
                     print("location ids not found")
                 end
                 print(overlay_text)
-                enemy_obj.BadgeText = overlay_text
             end
         end
     end
