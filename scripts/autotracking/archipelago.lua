@@ -91,6 +91,37 @@ function onClear(slot_data)
         print("Empty enemy dict")
     end
 
+    if has("enemy_random") then
+        for name, ids in pairs(ENEMY_DICT) do
+            name = string.sub(name, 9)
+            if name == "Iron Cleft" then
+                name = "Iron Clefts"
+            end
+            local code = "@Tattle Log/" .. name .. "/"
+            local enemy_obj = Tracker:FindObjectForCode(code)
+            if not enemy_obj then
+                print("Could not find " .. name)
+            else
+                local overlay_text = name .. " is near:"
+                if ids then
+                    for _, id in pairs(ids) do
+                        local location_array = LOCATION_MAPPING[id]
+                        if not location_array then
+                            print("location ID " .. tostring(id) .. " not found in location mapping")
+                        else
+                            for _, code in pairs(location_array) do
+                                overlay_text = overlay_text .. "\n" .. code
+                            end
+                        end
+                    end
+                else
+                    print("location ids not found")
+                end
+                print(overlay_text)
+            end
+        end
+    end
+
     -- Map Datastorage
     if Archipelago.PlayerNumber > -1 then
         if Highlight then
