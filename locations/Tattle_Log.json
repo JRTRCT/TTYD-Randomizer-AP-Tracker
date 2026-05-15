@@ -50,21 +50,21 @@
                 "name": "Gloomba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Gloomba.png","chest_opened_img": "/images/tattles/Gloomba_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|1],enemy_vanilla","^$enemy_rando|Gloomba"],
+                "access_rules":["$pit,[$chapters|1],enemy_vanilla","^$enemy_rando|Gloomba"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 204}]
             },
             {
                 "name": "Paragloomba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Paragloomba.png","chest_opened_img": "/images/tattles/Paragloomba_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|1],enemy_vanilla","^$enemy_rando|Paragloomba"],
+                "access_rules":["$pit,[$chapters|1],enemy_vanilla","^$enemy_rando|Paragloomba"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 204}]
             },
             {
                 "name": "Spiky Gloomba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spiky Gloomba.png","chest_opened_img": "/images/tattles/Spiky Gloomba_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|2],enemy_vanilla","^$enemy_rando|Spiky Gloomba"],
+                "access_rules":["$pit,[$chapters|2],enemy_vanilla","^$enemy_rando|Spiky Gloomba"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 327}]
             },
             {
@@ -99,7 +99,7 @@
                 "name": "Shady Koopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Shady Koopa.png","chest_opened_img": "/images/tattles/Shady Koopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Shady Koopa"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Shady Koopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 440}]
             },
             {
@@ -113,14 +113,14 @@
                 "name": "Dark Koopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Koopa.png","chest_opened_img": "/images/tattles/Dark Koopa_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|2],enemy_vanilla","^$enemy_rando|Dark Koopa"],
+                "access_rules":["$pit,[$chapters|2],enemy_vanilla","^$enemy_rando|Dark Koopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 440}]
             },
             {
                 "name": "Dark Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/D. Parakoopa.png","chest_opened_img": "/images/tattles/D. Parakoopa_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|3],enemy_vanilla","^$enemy_rando|Dark Paratroopa"],
+                "access_rules":["$pit,[$chapters|3],enemy_vanilla","^$enemy_rando|Dark Paratroopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 558}]
             },
             {
@@ -134,14 +134,14 @@
                 "name": "Dark Koopatrol",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/D. Koopatrol.png","chest_opened_img": "/images/tattles/D. Koopatrol_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$stars|4],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Dark Koopatrol"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$chapters|4],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Dark Koopatrol"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 558}]
             },
             {
                 "name": "Dull Bones",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dull Bones.png","chest_opened_img": "/images/tattles/Dull Bones_Dim.png",
                 "visibility_rules":["YesPit","Ch1","Ch3"],
-                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops,enemy_vanilla","$pit,[$stars|1],YesPit,enemy_vanilla","$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","^$enemy_rando|Dull Bones"],
+                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","^$enemy_rando|Dull Bones"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 558}]
             },
             {
@@ -155,7 +155,7 @@
                 "name": "Dry Bones",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dry Bones.png","chest_opened_img": "/images/tattles/Dry Bones_Dim.png",
                 "visibility_rules":["YesPit","NoPalaceSkip"],
-                "access_rules":["$pit,[$stars|4],YesPit","$palace,enemy_vanilla","^$enemy_rando|Dry Bones"],
+                "access_rules":["$pit,[$chapters|4],YesPit","$palace,enemy_vanilla","^$enemy_rando|Dry Bones"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 690}]
             },
             {
@@ -190,56 +190,56 @@
                 "name": "Lakitu",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Lakitu.png","chest_opened_img": "/images/tattles/Lakitu_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","^$enemy_rando|Lakitu"],
+                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","^$enemy_rando|Lakitu"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 819}]
             },
             {
                 "name": "Dark Lakitu",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Lakitu.png","chest_opened_img": "/images/tattles/Dark Lakitu_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|4],enemy_vanilla","^$enemy_rando|Dark Lakitu"],
+                "access_rules":["$pit,[$chapters|4],enemy_vanilla","^$enemy_rando|Dark Lakitu"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 819}]
             },
             {
                 "name": "Spiny",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spiny.png","chest_opened_img": "/images/tattles/Spiny_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","^$enemy_rando|Spiny"],
+                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","^$enemy_rando|Spiny"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 951}]
             },
             {
                 "name": "Sky-Blue Spiny",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Sky-Blue Spiny.png","chest_opened_img": "/images/tattles/Sky-Blue Spiny_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|4],enemy_vanilla","^$enemy_rando|Sky-Blue Spiny"],
+                "access_rules":["$pit,[$chapters|4],enemy_vanilla","^$enemy_rando|Sky-Blue Spiny"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 951}]
             },
             {
                 "name": "Buzzy Beetle",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Buzzy Beetle.png","chest_opened_img": "/images/tattles/Buzzy Beetle_Dim.png",
                 "visibility_rules":["YesPit","Ch4"],
-                "access_rules":["$pit,[$stars|2],YesPit,enemy_vanilla","$steeple,enemy_vanilla","^$enemy_rando|Buzzy Beetle"],
+                "access_rules":["$pit,[$chapters|2],YesPit,enemy_vanilla","$steeple,enemy_vanilla","^$enemy_rando|Buzzy Beetle"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 951}]
             },
             {
                 "name": "Spike Top",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spike Top.png","chest_opened_img": "/images/tattles/Spike Top_Dim.png",
                 "visibility_rules":["YesPit","Ch4","Ch6"],
-                "access_rules":["$steeple,enemy_vanilla","$riverside,StationKey1,StationKey2,Flurrie,$tube,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Spike Top"],
+                "access_rules":["$steeple,enemy_vanilla","$riverside,StationKey1,StationKey2,Flurrie,$tube,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Spike Top"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 951}]
             },
             {
                 "name": "Parabuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Parabuzzy.png","chest_opened_img": "/images/tattles/Parabuzzy_Dim.png",
                 "visibility_rules":["YesPit","Ch5"],
-                "access_rules":["$pit,[$stars|2],YesPit,enemy_vanilla","$pirates_grotto,$keelhaul_key,enemy_vanilla","^$enemy_rando|Parabuzzy"],
+                "access_rules":["$pit,[$chapters|2],YesPit,enemy_vanilla","$pirates_grotto,$keelhaul_key,enemy_vanilla","^$enemy_rando|Parabuzzy"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1074}]
             },
             {
                 "name": "Spiky Parabuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spiky Parabuzzy.png","chest_opened_img": "/images/tattles/Spiky Parabuzzy_Dim.png",
                 "visibility_rules":["YesPit","Ch6"],
-                "access_rules":["$pit,[$stars|3],YesPit,enemy_vanilla","$riverside,StationKey1,StationKey2,Flurrie,$tube,enemy_vanilla","^$enemy_rando|Spiky Parabuzzy"],
+                "access_rules":["$pit,[$chapters|3],YesPit,enemy_vanilla","$riverside,StationKey1,StationKey2,Flurrie,$tube,enemy_vanilla","^$enemy_rando|Spiky Parabuzzy"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1074}]
             },
             {
@@ -302,14 +302,14 @@
                 "name": "Dark Craw",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Craw.png","chest_opened_img": "/images/tattles/Dark Craw_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|4],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Dark Craw"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$chapters|4],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Dark Craw"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1320}]
             },
             {
                 "name": "Bandit",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bandit.png","chest_opened_img": "/images/tattles/Bandit_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","^$enemy_rando|Bandit"],
+                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","^$enemy_rando|Bandit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1320}]
             },
             {
@@ -323,7 +323,7 @@
                 "name": "Badge Bandit",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Badge Bandit.png","chest_opened_img": "/images/tattles/Badge Bandit_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|3],enemy_vanilla","^$enemy_rando|Badge Bandit"],
+                "access_rules":["$pit,[$chapters|3],enemy_vanilla","^$enemy_rando|Badge Bandit"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1446}]
             },
             {
@@ -337,21 +337,21 @@
                 "name": "Spania",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spania.png","chest_opened_img": "/images/tattles/Spania_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["$sewerwestground,enemy_vanilla","[$sewerwestground],$HRGlvl1,enemy_vanilla","$pit,[$stars|1],enemy_vanilla","^$enemy_rando|Spania"],
+                "access_rules":["$sewerwestground,enemy_vanilla","[$sewerwestground],$HRGlvl1,enemy_vanilla","$pit,[$chapters|1],enemy_vanilla","^$enemy_rando|Spania"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1446}]
             },
             {
                 "name": "Spunia",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spunia.png","chest_opened_img": "/images/tattles/Spunia_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["$sewerwestground,BoatCurse,Flurrie,enemy_vanilla","$pit,[$stars|5],YesPit,enemy_vanilla","[$sewerwestground],BoatCurse,Flurrie,$HRGlvl1,enemy_vanilla","^$enemy_rando|Spunia"],
+                "access_rules":["$sewerwestground,BoatCurse,Flurrie,enemy_vanilla","$pit,[$chapters|5],YesPit,enemy_vanilla","[$sewerwestground],BoatCurse,Flurrie,$HRGlvl1,enemy_vanilla","^$enemy_rando|Spunia"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1572}]
             },
             {
                 "name": "Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Fuzzy.png","chest_opened_img": "/images/tattles/Fuzzy_Dim.png",
                 "visibility_rules":["YesPit","Ch1"],
-                "access_rules":["$pit,[$stars|3],YesPit,enemy_vanilla","PlaneCurse","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","^$enemy_rando|Fuzzy"],
+                "access_rules":["$pit,[$chapters|3],YesPit,enemy_vanilla","PlaneCurse","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","^$enemy_rando|Fuzzy"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1572}]
             },
             {
@@ -372,21 +372,21 @@
                 "name": "Flower Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Flower Fuzzy.png","chest_opened_img": "/images/tattles/Flower Fuzzy_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$keelhaul_key,[$yoshi],enemy_vanilla","[$keelhaul_key],$HRGlvl2,[$yoshi],enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Flower Fuzzy"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$keelhaul_key,[$yoshi],enemy_vanilla","[$keelhaul_key],$HRGlvl2,[$yoshi],enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Flower Fuzzy"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1713}]
             },
             {
                 "name": "Pokey",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Pokey.png","chest_opened_img": "/images/tattles/Pokey_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$stars|1],YesPit,enemy_vanilla","^$enemy_rando|Pokey"],
+                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","^$enemy_rando|Pokey"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1713}]
             },
             {
                 "name": "Poison Pokey",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Poison Pokey.png","chest_opened_img": "/images/tattles/Poison Pokey_Dim.png",
                 "visibility_rules":["YesPit","Ch6"],
-                "access_rules":["$riverside,StationKey1,StationKey2,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Poison Pokey"],
+                "access_rules":["$riverside,StationKey1,StationKey2,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Poison Pokey"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1713}]
             },
             {
@@ -407,14 +407,14 @@
                 "name": "Frost Piranha",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Frost Piranha.png","chest_opened_img": "/images/tattles/Frost Piranha_Dim.png",
                 "visibility_rules":["YesPit","Ch7"],
-                "access_rules":["$fahr_outpost,enemy_vanilla","$pit,[$stars|4],YesPit,enemy_vanilla","^$enemy_rando|Frost Piranha"],
+                "access_rules":["$fahr_outpost,enemy_vanilla","$pit,[$chapters|4],YesPit,enemy_vanilla","^$enemy_rando|Frost Piranha"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1836}]
             },
             {
                 "name": "Piranha Plant",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Piranha Plant.png","chest_opened_img": "/images/tattles/Piranha Plant_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Piranha Plant"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Piranha Plant"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1836}]
             },
             {
@@ -428,21 +428,21 @@
                 "name": "Amazy Dayzee",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Amazy Dayzee.png","chest_opened_img": "/images/tattles/Amazy Dayzee_Dim.png",
                 "visibility_rules":["YesPit","Ch4"],
-                "access_rules":["$pit,[$stars|5],YesPit,enemy_vanilla","$twilight_town,$tube,Flurrie,enemy_vanilla","^$enemy_rando|Amazy Dayzee"],
+                "access_rules":["$pit,[$chapters|5],YesPit,enemy_vanilla","$twilight_town,$tube,Flurrie,enemy_vanilla","^$enemy_rando|Amazy Dayzee"],
                 "map_locations": [{"map": "Tattle Log", "x": 294, "y": 1940}]
             },
             {
                 "name": "Pider",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Pider.png","chest_opened_img": "/images/tattles/Pider_Dim.png",
                 "visibility_rules":["YesPit","Ch2"],
-                "access_rules":["Flurrie,$bogglywoods,PuniOrb,enemy_vanilla","$pit,[$stars|1],YesPit,enemy_vanilla","^$enemy_rando|Pider"],
+                "access_rules":["Flurrie,$bogglywoods,PuniOrb,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","^$enemy_rando|Pider"],
                 "map_locations": [{"map": "Tattle Log", "x": 1005, "y": 1940}]
             },
             {
                 "name": "Arantula",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Arantula.png","chest_opened_img": "/images/tattles/Arantula_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Arantula"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Arantula"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 90}]
             },
             {
@@ -456,21 +456,21 @@
                 "name": "Swoopula",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Swoopula.png","chest_opened_img": "/images/tattles/Swoopula_Dim.png",
                 "visibility_rules":["YesPit","NoPalaceSkip"],
-                "access_rules":["$pit,[$stars|4],YesPit,enemy_vanilla","$palace,enemy_vanilla","^$enemy_rando|Swoopula"],
+                "access_rules":["$pit,[$chapters|4],YesPit,enemy_vanilla","$palace,enemy_vanilla","^$enemy_rando|Swoopula"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 90}]
             },
             {
                 "name": "Swampire",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Swampire.png","chest_opened_img": "/images/tattles/Swampire_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Swampire"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Swampire"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 90}]
             },
             {
                 "name": "Dark Puff",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Puff.png","chest_opened_img": "/images/tattles/Dark Puff_Dim.png",
                 "visibility_rules":["YesPit","Ch2"],
-                "access_rules":["$bogglywoods,enemy_vanilla","[$bogglywoods],$HRGlvl2,enemy_vanilla","$pit,[$stars|1],YesPit,enemy_vanilla","^$enemy_rando|Dark Puff"],
+                "access_rules":["$bogglywoods,enemy_vanilla","[$bogglywoods],$HRGlvl2,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","^$enemy_rando|Dark Puff"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 204}]
             },
             {
@@ -484,21 +484,21 @@
                 "name": "Ice Puff",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Ice Puff.png","chest_opened_img": "/images/tattles/Ice Puff_Dim.png",
                 "visibility_rules":["YesPit","Ch7"],
-                "access_rules":["$fahr_outpost,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Ice Puff"],
+                "access_rules":["$fahr_outpost,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Ice Puff"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 204}]
             },
             {
                 "name": "Poison Puff",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Poison Puff.png","chest_opened_img": "/images/tattles/Poison Puff_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Poison Puff"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Poison Puff"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 204}]
             },
             {
                 "name": "Boo",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Boo.png","chest_opened_img": "/images/tattles/Boo_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$steeple,SuperHammer,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","^$enemy_rando|Boo"],
+                "access_rules":["$steeple,SuperHammer,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","^$enemy_rando|Boo"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 327}]
             },
             {
@@ -512,7 +512,7 @@
                 "name": "Dark Boo",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Boo.png","chest_opened_img": "/images/tattles/Dark Boo_Dim.png",
                 "visibility_rules":["YesPit","Ch6"],
-                "access_rules":["$poshleysanctum,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Dark Boo"],
+                "access_rules":["$poshleysanctum,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Dark Boo"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 327}]
             },
             {
@@ -526,14 +526,14 @@
                 "name": "Lava Bubble",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Lava Bubble.png","chest_opened_img": "/images/tattles/Lava Bubble_Dim.png",
                 "visibility_rules":["YesPit","Ch5"],
-                "access_rules":["$pirates_grotto,$keelhaul_key,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Lava Bubble"],
+                "access_rules":["$pirates_grotto,$keelhaul_key,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Lava Bubble"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 440}]
             },
             {
                 "name": "Phantom Ember",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Phantom Ember.png","chest_opened_img": "/images/tattles/Phantom Ember_Dim.png",
                 "visibility_rules":["YesPit","NoPalaceSkip"],
-                "access_rules":["$pit,[$stars|4],YesPit,enemy_vanilla","$palace,enemy_vanilla","^$enemy_rando|Phantom Ember"],
+                "access_rules":["$pit,[$chapters|4],YesPit,enemy_vanilla","$palace,enemy_vanilla","^$enemy_rando|Phantom Ember"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 440}]
             },
             {
@@ -554,7 +554,7 @@
                 "name": "Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Cleft.png","chest_opened_img": "/images/tattles/Cleft_Dim.png",
                 "visibility_rules":["YesPit","Ch2"],
-                "access_rules":["SuperHammer,SuperBoots,enemy_vanilla","$bogglywoods,enemy_vanilla","[$bogglywoods],$HRGlvl2,enemy_vanilla","$pit,[$stars|1],YesPit,enemy_vanilla","^$enemy_rando|Cleft"],
+                "access_rules":["SuperHammer,SuperBoots,enemy_vanilla","$bogglywoods,enemy_vanilla","[$bogglywoods],$HRGlvl2,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","^$enemy_rando|Cleft"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 558}]
             },
             {
@@ -572,14 +572,14 @@
                 "name": "Hyper Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Hyper Cleft.png","chest_opened_img": "/images/tattles/Hyper Cleft_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["[$steeple],$twilight_town,$tube,Flurrie,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","^$enemy_rando|Hyper Cleft"],
+                "access_rules":["[$steeple],$twilight_town,$tube,Flurrie,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","^$enemy_rando|Hyper Cleft"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 558}]
             },
             {
                 "name": "Moon Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Moon Cleft.png","chest_opened_img": "/images/tattles/Moon Cleft_Dim.png",
                 "visibility_rules":["YesPit","Ch7"],
-                "access_rules":["$moon,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Moon Cleft"],
+                "access_rules":["$moon,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Moon Cleft"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 690}]
             },
             {
@@ -593,42 +593,42 @@
                 "name": "Dark Bristle",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Bristle.png","chest_opened_img": "/images/tattles/Dark Bristle_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Dark Bristle"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Dark Bristle"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 690}]
             },
             {
                 "name": "Bob-omb",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bob-omb.png","chest_opened_img": "/images/tattles/Bob-omb_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$stars|2],YesPit,enemy_vanilla","^$enemy_rando|Bob-omb"],
+                "access_rules":["$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","$pit,[$chapters|2],YesPit,enemy_vanilla","^$enemy_rando|Bob-omb"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 690}]
             },
             {
                 "name": "Bulky Bob-omb",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bulky Bob-omb.png","chest_opened_img": "/images/tattles/Bulky Bob-omb_Dim.png",
                 "visibility_rules":["YesPit","Ch5"],
-                "access_rules":["$pirates_grotto,$keelhaul_key,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","^$enemy_rando|Bulky Bob-omb"],
+                "access_rules":["$pirates_grotto,$keelhaul_key,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","^$enemy_rando|Bulky Bob-omb"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 819}]
             },
             {
                 "name": "Bob-ulk",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bob-ulk.png","chest_opened_img": "/images/tattles/Bob-ulk_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Bob-ulk"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Bob-ulk"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 819}]
             },
             {
                 "name": "Chain-Chomp",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Chain-Chomp.png","chest_opened_img": "/images/tattles/Chain-Chomp_Dim.png",
                 "visibility_rules":["YesPit","NoPalaceSkip"],
-                "access_rules":["$palace,PalaceKey1,$tube,enemy_vanilla","$palace,PalaceKey1,Vivian,enemy_vanilla","$pit,[$stars|4],YesPit,enemy_vanilla","^$enemy_rando|Chain-Chomp"],
+                "access_rules":["$palace,PalaceKey1,$tube,enemy_vanilla","$palace,PalaceKey1,Vivian,enemy_vanilla","$pit,[$chapters|4],YesPit,enemy_vanilla","^$enemy_rando|Chain-Chomp"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 819}]
             },
             {
                 "name": "Red Chomp",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Chomp.png","chest_opened_img": "/images/tattles/Red Chomp_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$stars|3],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Red Chomp"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,enemy_vanilla","[$westside],BlimpTicket,$yoshi,$HRGlvl1,enemy_vanilla","$pit,[$chapters|3],YesPit,enemy_vanilla","$westside,BlimpTicket,[$yoshi],enemy_vanilla","[$westside],BlimpTicket,[$yoshi],$HRGlvl1,enemy_vanilla","^$enemy_rando|Red Chomp"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 819}]
             },
             {
@@ -663,14 +663,14 @@
                 "name": "Dark Wizzerd",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Wizzerd.png","chest_opened_img": "/images/tattles/Dark Wizzerd_Dim.png",
                 "visibility_rules":["NoPalaceSkip"],
-                "access_rules":["$palace,PalaceKey1,$tube,enemy_vanilla","$palace,PalaceKey1,Vivian,enemy_vanilla","$pit,[$stars|4],YesPit,enemy_vanilla","^$enemy_rando|Dark Wizzerd"],
+                "access_rules":["$palace,PalaceKey1,$tube,enemy_vanilla","$palace,PalaceKey1,Vivian,enemy_vanilla","$pit,[$chapters|4],YesPit,enemy_vanilla","^$enemy_rando|Dark Wizzerd"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1074}]
             },
             {
                 "name": "Wizzerd",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Wizzerd.png","chest_opened_img": "/images/tattles/Wizzerd_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|4],enemy_vanilla","^$enemy_rando|Wizzerd"],
+                "access_rules":["$pit,[$chapters|4],enemy_vanilla","^$enemy_rando|Wizzerd"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 1074}]
                 
             },
@@ -678,7 +678,7 @@
                 "name": "Elite Wizzerd",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Elite Wizzerd.png","chest_opened_img": "/images/tattles/Elite Wizzerd_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Elite Wizzerd"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Elite Wizzerd"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 1074}]
             },
             {
@@ -706,7 +706,7 @@
                 "name": "Bonetail",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bonetail.png","chest_opened_img": "/images/tattles/Bonetail_Dim.png",
                 "visibility_rules":["YesPit"],
-                "access_rules":["$pit,[$stars|5],enemy_vanilla","^$enemy_rando|Bonetail"],
+                "access_rules":["$pit,[$chapters|5],enemy_vanilla","^$enemy_rando|Bonetail"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 1200}]
             },
             {
