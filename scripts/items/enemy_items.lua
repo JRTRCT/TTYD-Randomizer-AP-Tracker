@@ -850,7 +850,7 @@ ENEMY_DICT = {
         ["name"] = "Vivian",
         ["img"] = "/images/tattles/Vivian.png",
         ["codes"] = {
-            "Vivian"
+            "Vivian_Item"
         }
     },
     {
@@ -866,19 +866,6 @@ local function CanProvideCodeFunc(self, code)
     return code == self.ItemState.Code
 end
 
-local function SaveEnemyFunction(self)
-    return {
-        Name = self.Name,
-        CODE = self.ItemState.Code
-    }
-end
-
-local function LoadEnemyFunction(self, data)
-    if data ~= nil and self.ItemState.Code == data.CODE then
-        self.Name = data.Name
-    end
-end
-
 local function CreateLuaEnemyItems(enemy_dict)
     for _, enemy in pairs(enemy_dict) do
         local enemy_item =  ScriptHost:CreateLuaItem()
@@ -889,13 +876,7 @@ local function CreateLuaEnemyItems(enemy_dict)
         }
         enemy_item.CanProvideCodeFunc = CanProvideCodeFunc
         enemy_item.ProvidesCodeFunc = CanProvideCodeFunc
-        enemy_item.SaveFunc = SaveEnemyFunction
-        enemy_item.LoadFunc = LoadEnemyFunction
     end
 end
 
-print("Test 1")
-
 CreateLuaEnemyItems(ENEMY_DICT)
-
-print("Test 2")

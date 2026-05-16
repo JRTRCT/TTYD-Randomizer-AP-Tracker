@@ -97,12 +97,15 @@ function onClear(slot_data)
             if name == "Iron Cleft" then
                 name = "Iron Clefts"
             end
-            local code = "@Tattle Log/" .. name .. "/"
+            if name == "Vivian" then
+                name = "Vivian_Item"
+            end
+            local code = string.gsub(name, " ", "_")
             local enemy_obj = Tracker:FindObjectForCode(code)
             if not enemy_obj then
                 print("Could not find " .. name)
             else
-                local overlay_text = name .. " is near:"
+                local location_text = name .. " is near:"
                 if ids then
                     for _, id in pairs(ids) do
                         local location_array = LOCATION_MAPPING[id]
@@ -110,14 +113,15 @@ function onClear(slot_data)
                             print("location ID " .. tostring(id) .. " not found in location mapping")
                         else
                             for _, code in pairs(location_array) do
-                                overlay_text = overlay_text .. "\n" .. code
+                                location_text = location_text .. "\n" .. code
                             end
                         end
                     end
                 else
                     print("location ids not found")
                 end
-                print(overlay_text)
+                enemy_obj.Name = location_text
+                print(location_text)
             end
         end
     end
