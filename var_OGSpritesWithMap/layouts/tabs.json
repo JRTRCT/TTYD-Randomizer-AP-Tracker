@@ -297,6 +297,13 @@
                         "Tattle Log"
                     ]
                 }
+            },
+            {
+                "title": "Enemy Randomizer",
+                "content": {
+                    "type": "layout",
+                    "key": "tattle_item_grid"
+                }
             }
         ]
     },
@@ -597,6 +604,13 @@
                     "maps": [
                         "Tattle Log"
                     ]
+                }
+            },
+            {
+                "title": "Enemy Randomizer",
+                "content": {
+                    "type": "layout",
+                    "key": "tattle_item_grid"
                 }
             }
         ]
