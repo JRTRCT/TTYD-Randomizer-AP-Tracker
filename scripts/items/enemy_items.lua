@@ -2,868 +2,663 @@ ENEMY_DICT = {
     {
         ["name"] = "Goomba",
         ["img"] = "/images/tattles/Goomba.png",
-        ["codes"] = {
-            "Goomba"
-        }
+        ["code"] = "Goomba"
     },
     {
         ["name"] = "Paragoomba",
         ["img"] = "/images/tattles/Paragoomba.png",
-        ["codes"] = {
-            "Paragoomba"
-        }
+        ["code"] = "Paragoomba"
     },
     {
         ["name"] = "Spiky Goomba",
         ["img"] = "/images/tattles/Spiky Goomba.png",
-        ["codes"] = {
-            "Spiky_Goomba"
-        }
+        ["code"] = "Spiky_Goomba"
     },
     {
         ["name"] = "Hyper Goomba",
         ["img"] = "/images/tattles/Hyper Goomba.png",
-        ["codes"] = {
-            "Hyper_Goomba"
-        }
+        ["code"] = "Hyper_Goomba"
     },
     {
         ["name"] = "Hyper Paragoomba",
         ["img"] = "/images/tattles/H. Paragoomba.png",
-        ["codes"] = {
-            "Hyper_Paragoomba"
-        }
+        ["code"] = "Hyper_Paragoomba"
     },
     {
         ["name"] = "Hyper Spiky Goomba",
         ["img"] = "/images/tattles/H. S. Goomba.png",
-        ["codes"] = {
-            "Hyper_Spiky_Goomba"
-        }
+        ["code"] = "Hyper_Spiky_Goomba"
     },
     {
         ["name"] = "Gloomba",
         ["img"] = "/images/tattles/Gloomba.png",
-        ["codes"] = {
-            "Gloomba"
-        }
+        ["code"] = "Gloomba"
     },
     {
         ["name"] = "Paragloomba",
         ["img"] = "/images/tattles/Paragloomba.png",
-        ["codes"] = {
-            "Paragloomba"
-        }
+        ["code"] = "Paragloomba"
     },
     {
         ["name"] = "Spiky Gloomba",
         ["img"] = "/images/tattles/Spiky Gloomba.png",
-        ["codes"] = {
-            "Spiky_Gloomba"
-        }
+        ["code"] = "Spiky_Gloomba"
     },
     {
         ["name"] = "Koopa Troopa",
         ["img"] = "/images/tattles/Koopa Troopa.png",
-        ["codes"] = {
-            "Koopa_Troopa"
-        }
+        ["code"] = "Koopa_Troopa"
     },
     {
         ["name"] = "Paratroopa",
         ["img"] = "/images/tattles/Paratroopa.png",
-        ["codes"] = {
-            "Paratroopa"
-        }
+        ["code"] = "Paratroopa"
     },
     {
         ["name"] = "KP Koopa",
         ["img"] = "/images/tattles/KP Koopa.png",
-        ["codes"] = {
-            "KP_Koopa"
-        }
+        ["code"] = "KP_Koopa"
     },
     {
         ["name"] = "KP Paratroopa",
         ["img"] = "/images/tattles/KP Paratroopa.png",
-        ["codes"] = {
-            "KP_Paratroopa"
-        }
+        ["code"] = "KP_Paratroopa"
     },
     {
         ["name"] = "Shady Koopa",
         ["img"] = "/images/tattles/Shady Koopa.png",
-        ["codes"] = {
-            "Shady_Koopa"
-        }
+        ["code"] = "Shady_Koopa"
     },
     {
         ["name"] = "Shady Paratroopa",
         ["img"] = "/images/tattles/S. Paratroopa.png",
-        ["codes"] = {
-            "Shady_Paratroopa"
-        }
+        ["code"] = "Shady_Paratroopa"
     },
     {
         ["name"] = "Dark Koopa",
         ["img"] = "/images/tattles/Dark Koopa.png",
-        ["codes"] = {
-            "Dark_Koopa"
-        }
+        ["code"] = "Dark_Koopa"
     },
     {
         ["name"] = "Dark Paratroopa",
         ["img"] = "/images/tattles/D. Parakoopa.png",
-        ["codes"] = {
-            "Dark_Paratroopa"
-        }
+        ["code"] = "Dark_Paratroopa"
     },
     {
         ["name"] = "Koopatrol",
         ["img"] = "/images/tattles/Koopatrol.png",
-        ["codes"] = {
-            "Koopatrol"
-        }
+        ["code"] = "Koopatrol"
     },
     {
         ["name"] = "Dark Koopatrol",
         ["img"] = "/images/tattles/D. Koopatrol.png",
-        ["codes"] = {
-            "Dark_Koopatrol"
-        }
+        ["code"] = "Dark_Koopatrol"
     },
     {
         ["name"] = "Dull Bones",
         ["img"] = "/images/tattles/Dull Bones.png",
-        ["codes"] = {
-            "Dull_Bones"
-        }
+        ["code"] = "Dull_Bones"
     },
     {
         ["name"] = "Red Bones",
         ["img"] = "/images/tattles/Red Bones.png",
-        ["codes"] = {
-            "Red_Bones"
-        }
+        ["code"] = "Red_Bones"
     },
     {
         ["name"] = "Dry Bones",
         ["img"] = "/images/tattles/Dry Bones.png",
-        ["codes"] = {
-            "Dry_Bones"
-        }
+        ["code"] = "Dry_Bones"
     },
     {
         ["name"] = "Dark Bones",
         ["img"] = "/images/tattles/Dark Bones.png",
-        ["codes"] = {
-            "Dark_Bones"
-        }
+        ["code"] = "Dark_Bones"
     },
     {
         ["name"] = "Hammer Bro",
         ["img"] = "/images/tattles/Hammer Bro.png",
-        ["codes"] = {
-            "Hammer_Bro"
-        }
+        ["code"] = "Hammer_Bro"
     },
     {
         ["name"] = "Boomerang Bro",
         ["img"] = "/images/tattles/Boomerang Bro.png",
-        ["codes"] = {
-            "Boomerang_Bro"
-        }
+        ["code"] = "Boomerang_Bro"
     },
     {
         ["name"] = "Fire Bro",
         ["img"] = "/images/tattles/Fire Bro.png",
-        ["codes"] = {
-            "Fire_Bro"
-        }
+        ["code"] = "Fire_Bro"
     },
     {
         ["name"] = "Lakitu",
         ["img"] = "/images/tattles/Lakitu.png",
-        ["codes"] = {
-            "Lakitu"
-        }
+        ["code"] = "Lakitu"
     },
     {
         ["name"] = "Dark Lakitu",
         ["img"] = "/images/tattles/Dark Lakitu.png",
-        ["codes"] = {
-            "Dark_Lakitu"
-        }
+        ["code"] = "Dark_Lakitu"
     },
     {
         ["name"] = "Spiny",
         ["img"] = "/images/tattles/Spiny.png",
-        ["codes"] = {
-            "Spiny"
-        }
+        ["code"] = "Spiny"
     },
     {
         ["name"] = "Sky-Blue Spiny",
         ["img"] = "/images/tattles/Sky-Blue Spiny.png",
-        ["codes"] = {
-            "Sky-Blue_Spiny"
-        }
+        ["code"] = "Sky-Blue_Spiny"
     },
     {
         ["name"] = "Buzzy Beetle",
         ["img"] = "/images/tattles/Buzzy Beetle.png",
-        ["codes"] = {
-            "Buzzy_Beetle"
-        }
+        ["code"] = "Buzzy_Beetle"
     },
     {
         ["name"] = "Spike Top",
         ["img"] = "/images/tattles/Spike Top.png",
-        ["codes"] = {
-            "Spike_Top"
-        }
+        ["code"] = "Spike_Top"
     },
     {
         ["name"] = "Parabuzzy",
         ["img"] = "/images/tattles/Parabuzzy.png",
-        ["codes"] = {
-            "Parabuzzy"
-        }
+        ["code"] = "Parabuzzy"
     },
     {
         ["name"] = "Spiky Parabuzzy",
         ["img"] = "/images/tattles/Spiky Parabuzzy.png",
-        ["codes"] = {
-            "Spiky_Parabuzzy"
-        }
+        ["code"] = "Spiky_Parabuzzy"
     },
     {
         ["name"] = "Red Spike Top",
         ["img"] = "/images/tattles/Red Spike Top.png",
-        ["codes"] = {
-            "Red_Spike_Top"
-        }
+        ["code"] = "Red_Spike_Top"
     },
     {
         ["name"] = "Magikoopa",
         ["img"] = "/images/tattles/Magikoopa.png",
-        ["codes"] = {
-            "Magikoopa"
-        }
+        ["code"] = "Magikoopa"
     },
     {
         ["name"] = "Red Magikoopa",
         ["img"] = "/images/tattles/Red Magikoopa.png",
-        ["codes"] = {
-            "Red_Magikoopa"
-        }
+        ["code"] = "Red_Magikoopa"
     },
     {
         ["name"] = "White Magikoopa",
         ["img"] = "/images/tattles/White Magikoopa.png",
-        ["codes"] = {
-            "White_Magikoopa"
-        }
+        ["code"] = "White_Magikoopa"
     },
     {
         ["name"] = "Green Magikoopa",
         ["img"] = "/images/tattles/Green Magikoopa.png",
-        ["codes"] = {
-            "Green_Magikoopa"
-        }
+        ["code"] = "Green_Magikoopa"
     },
     {
         ["name"] = "Kammy Koopa",
         ["img"] = "/images/tattles/Kammy Koopa.png",
-        ["codes"] = {
-            "Kammy_Koopa"
-        }
+        ["code"] = "Kammy_Koopa"
     },
     {
         ["name"] = "Bowser",
         ["img"] = "/images/tattles/Bowser.png",
-        ["codes"] = {
-            "Bowser"
-        }
+        ["code"] = "Bowser"
     },
     {
         ["name"] = "Gus",
         ["img"] = "/images/tattles/Gus.png",
-        ["codes"] = {
-            "Gus"
-        }
+        ["code"] = "Gus"
     },
     {
         ["name"] = "Dark Craw",
         ["img"] = "/images/tattles/Dark Craw.png",
-        ["codes"] = {
-            "Dark_Craw"
-        }
+        ["code"] = "Dark_Craw"
     },
     {
         ["name"] = "Bandit",
         ["img"] = "/images/tattles/Bandit.png",
-        ["codes"] = {
-            "Bandit"
-        }
+        ["code"] = "Bandit"
     },
     {
         ["name"] = "Big Bandit",
         ["img"] = "/images/tattles/Big Bandit.png",
-        ["codes"] = {
-            "Big_Bandit"
-        }
+        ["code"] = "Big_Bandit"
     },
     {
         ["name"] = "Badge Bandit",
         ["img"] = "/images/tattles/Badge Bandit.png",
-        ["codes"] = {
-            "Badge_Bandit"
-        }
+        ["code"] = "Badge_Bandit"
     },
     {
         ["name"] = "Spinia",
         ["img"] = "/images/tattles/Spinia.png",
-        ["codes"] = {
-            "Spinia"
-        }
+        ["code"] = "Spinia"
     },
     {
         ["name"] = "Spania",
         ["img"] = "/images/tattles/Spania.png",
-        ["codes"] = {
-            "Spania"
-        }
+        ["code"] = "Spania"
     },
     {
         ["name"] = "Spunia",
         ["img"] = "/images/tattles/Spunia.png",
-        ["codes"] = {
-            "Spunia"
-        }
+        ["code"] = "Spunia"
     },
     {
         ["name"] = "Fuzzy",
         ["img"] = "/images/tattles/Fuzzy.png",
-        ["codes"] = {
-            "Fuzzy"
-        }
+        ["code"] = "Fuzzy"
     },
     {
         ["name"] = "Gold Fuzzy",
         ["img"] = "/images/tattles/Gold Fuzzy.png",
-        ["codes"] = {
-            "Gold_Fuzzy"
-        }
+        ["code"] = "Gold_Fuzzy"
     },
     {
         ["name"] = "Green Fuzzy",
         ["img"] = "/images/tattles/Green Fuzzy.png",
-        ["codes"] = {
-            "Green_Fuzzy"
-        }
+        ["code"] = "Green_Fuzzy"
     },
     {
         ["name"] = "Flower Fuzzy",
         ["img"] = "/images/tattles/Flower Fuzzy.png",
-        ["codes"] = {
-            "Flower_Fuzzy"
-        }
+        ["code"] = "Flower_Fuzzy"
     },
     {
         ["name"] = "Pokey",
         ["img"] = "/images/tattles/Pokey.png",
-        ["codes"] = {
-            "Pokey"
-        }
+        ["code"] = "Pokey"
     },
     {
         ["name"] = "Poison Pokey",
         ["img"] = "/images/tattles/Poison Pokey.png",
-        ["codes"] = {
-            "Poison_Pokey"
-        }
+        ["code"] = "Poison_Pokey"
     },
     {
         ["name"] = "Pale Piranha",
         ["img"] = "/images/tattles/Pale Piranha.png",
-        ["codes"] = {
-            "Pale_Piranha"
-        }
+        ["code"] = "Pale_Piranha"
     },
     {
         ["name"] = "Putrid Piranha",
         ["img"] = "/images/tattles/Putrid Piranha.png",
-        ["codes"] = {
-            "Putrid_Piranha"
-        }
+        ["code"] = "Putrid_Piranha"
     },
     {
         ["name"] = "Frost Piranha",
         ["img"] = "/images/tattles/Frost Piranha.png",
-        ["codes"] = {
-            "Frost_Piranha"
-        }
+        ["code"] = "Frost_Piranha"
     },
     {
         ["name"] = "Piranha Plant",
         ["img"] = "/images/tattles/Piranha Plant.png",
-        ["codes"] = {
-            "Piranha_Plant"
-        }
+        ["code"] = "Piranha_Plant"
     },
     {
         ["name"] = "Crazee Dayzee",
         ["img"] = "/images/tattles/Crazee Dayzee.png",
-        ["codes"] = {
-            "Crazee_Dayzee"
-        }
+        ["code"] = "Crazee_Dayzee"
     },
     {
         ["name"] = "Amazy Dayzee",
         ["img"] = "/images/tattles/Amazy Dayzee.png",
-        ["codes"] = {
-            "Amazy_Dayzee"
-        }
+        ["code"] = "Amazy_Dayzee"
     },
     {
         ["name"] = "Pider",
         ["img"] = "/images/tattles/Pider.png",
-        ["codes"] = {
-            "Pider"
-        }
+        ["code"] = "Pider"
     },
     {
         ["name"] = "Arantula",
         ["img"] = "/images/tattles/Arantula.png",
-        ["codes"] = {
-            "Arantula"
-        }
+        ["code"] = "Arantula"
     },
     {
         ["name"] = "Swooper",
         ["img"] = "/images/tattles/Swooper.png",
-        ["codes"] = {
-            "Swooper"
-        }
+        ["code"] = "Swooper"
     },
     {
         ["name"] = "Swoopula",
         ["img"] = "/images/tattles/Swoopula.png",
-        ["codes"] = {
-            "Swoopula"
-        }
+        ["code"] = "Swoopula"
     },
     {
         ["name"] = "Swampire",
         ["img"] = "/images/tattles/Swampire.png",
-        ["codes"] = {
-            "Swampire"
-        }
+        ["code"] = "Swampire"
     },
     {
         ["name"] = "Dark Puff",
         ["img"] = "/images/tattles/Dark Puff.png",
-        ["codes"] = {
-            "Dark_Puff"
-        }
+        ["code"] = "Dark_Puff"
     },
     {
         ["name"] = "Ruff Puff",
         ["img"] = "/images/tattles/Ruff Puff.png",
-        ["codes"] = {
-            "Ruff_Puff"
-        }
+        ["code"] = "Ruff_Puff"
     },
     {
         ["name"] = "Ice Puff",
         ["img"] = "/images/tattles/Ice Puff.png",
-        ["codes"] = {
-            "Ice_Puff"
-        }
+        ["code"] = "Ice_Puff"
     },
     {
         ["name"] = "Poison Puff",
         ["img"] = "/images/tattles/Poison Puff.png",
-        ["codes"] = {
-            "Poison_Puff"
-        }
+        ["code"] = "Poison_Puff"
     },
     {
         ["name"] = "Boo",
         ["img"] = "/images/tattles/Boo.png",
-        ["codes"] = {
-            "Boo"
-        }
+        ["code"] = "Boo"
     },
     {
         ["name"] = "Atomic Boo",
         ["img"] = "/images/tattles/Atomic Boo.png",
-        ["codes"] = {
-            "Atomic_Boo"
-        }
+        ["code"] = "Atomic_Boo"
     },
     {
         ["name"] = "Dark Boo",
         ["img"] = "/images/tattles/Dark Boo.png",
-        ["codes"] = {
-            "Dark_Boo"
-        }
+        ["code"] = "Dark_Boo"
     },
     {
         ["name"] = "Ember",
         ["img"] = "/images/tattles/Ember.png",
-        ["codes"] = {
-            "Ember"
-        }
+        ["code"] = "Ember"
     },
     {
         ["name"] = "Lava Bubble",
         ["img"] = "/images/tattles/Lava Bubble.png",
-        ["codes"] = {
-            "Lava_Bubble"
-        }
+        ["code"] = "Lava_Bubble"
     },
     {
         ["name"] = "Phantom Ember",
         ["img"] = "/images/tattles/Phantom Ember.png",
-        ["codes"] = {
-            "Phantom_Ember"
-        }
+        ["code"] = "Phantom_Ember"
     },
     {
         ["name"] = "Bald Cleft",
         ["img"] = "/images/tattles/Bald Cleft.png",
-        ["codes"] = {
-            "Bald_Cleft"
-        }
+        ["code"] = "Bald_Cleft"
     },
     {
         ["name"] = "Hyper Bald Cleft",
         ["img"] = "/images/tattles/Hyper Bald Cleft.png",
-        ["codes"] = {
-            "Hyper_Bald_Cleft"
-        }
+        ["code"] = "Hyper_Bald_Cleft"
     },
     {
         ["name"] = "Cleft",
         ["img"] = "/images/tattles/Cleft.png",
-        ["codes"] = {
-            "Cleft"
-        }
+        ["code"] = "Cleft"
     },
     {
         ["name"] = "Iron Clefts",
         ["img"] = "/images/tattles/Iron Clefts.png",
-        ["codes"] = {
-            "Iron_Clefts"
-        }
+        ["code"] = "Iron_Clefts"
     },
     {
         ["name"] = "Hyper Cleft",
         ["img"] = "/images/tattles/Hyper Cleft.png",
-        ["codes"] = {
-            "Hyper_Cleft"
-        }
+        ["code"] = "Hyper_Cleft"
     },
     {
         ["name"] = "Moon Cleft",
         ["img"] = "/images/tattles/Moon Cleft.png",
-        ["codes"] = {
-            "Moon_Cleft"
-        }
+        ["code"] = "Moon_Cleft"
     },
     {
         ["name"] = "Bristle",
         ["img"] = "/images/tattles/Bristle.png",
-        ["codes"] = {
-            "Bristle"
-        }
+        ["code"] = "Bristle"
     },
     {
         ["name"] = "Dark Bristle",
         ["img"] = "/images/tattles/Dark Bristle.png",
-        ["codes"] = {
-            "Dark_Bristle"
-        }
+        ["code"] = "Dark_Bristle"
     },
     {
         ["name"] = "Bob-omb",
         ["img"] = "/images/tattles/Bob-omb.png",
-        ["codes"] = {
-            "Bob-omb"
-        }
+        ["code"] = "Bob-omb"
     },
     {
         ["name"] = "Bulky Bob-omb",
         ["img"] = "/images/tattles/Bulky Bob-omb.png",
-        ["codes"] = {
-            "Bulky_Bob-omb"
-        }
+        ["code"] = "Bulky_Bob-omb"
     },
     {
         ["name"] = "Bob-ulk",
         ["img"] = "/images/tattles/Bob-ulk.png",
-        ["codes"] = {
-            "Bob-ulk"
-        }
+        ["code"] = "Bob-ulk"
     },
     {
         ["name"] = "Chain-Chomp",
         ["img"] = "/images/tattles/Chain-Chomp.png",
-        ["codes"] = {
-            "Chain-Chomp"
-        }
+        ["code"] = "Chain-Chomp"
     },
     {
         ["name"] = "Red Chomp",
         ["img"] = "/images/tattles/Red Chomp.png",
-        ["codes"] = {
-            "Red_Chomp"
-        }
+        ["code"] = "Red_Chomp"
     },
     {
         ["name"] = "Bill Blaster",
         ["img"] = "/images/tattles/Bill Blaster.png",
-        ["codes"] = {
-            "Bill_Blaster"
-        }
+        ["code"] = "Bill_Blaster"
     },
     {
         ["name"] = "Bullet Bill",
         ["img"] = "/images/tattles/Bullet Bill.png",
-        ["codes"] = {
-            "Bullet_Bill"
-        }
+        ["code"] = "Bullet_Bill"
     },
     {
         ["name"] = "B. Bill Blaster",
         ["img"] = "/images/tattles/B. Bill Blaster.png",
-        ["codes"] = {
-            "B._Bill_Blaster"
-        }
+        ["code"] = "B._Bill_Blaster"
     },
     {
         ["name"] = "Bombshell Bill",
         ["img"] = "/images/tattles/Bombshell Bill.png",
-        ["codes"] = {
-            "Bombshell_Bill"
-        }
+        ["code"] = "Bombshell_Bill"
     },
     {
         ["name"] = "Dark Wizzerd",
         ["img"] = "/images/tattles/Dark Wizzerd.png",
-        ["codes"] = {
-            "Dark_Wizzerd"
-        }
+        ["code"] = "Dark_Wizzerd"
     },
     {
         ["name"] = "Wizzerd",
         ["img"] = "/images/tattles/Wizzerd.png",
-        ["codes"] = {
-            "Wizzerd"
-        }
+        ["code"] = "Wizzerd"
     },
     {
         ["name"] = "Elite Wizzerd",
         ["img"] = "/images/tattles/Elite Wizzerd.png",
-        ["codes"] = {
-            "Elite_Wizzerd"
-        }
+        ["code"] = "Elite_Wizzerd"
     },
     {
         ["name"] = "Blooper",
         ["img"] = "/images/tattles/Blooper.png",
-        ["codes"] = {
-            "Blooper"
-        }
+        ["code"] = "Blooper"
     },
     {
         ["name"] = "Hooktail",
         ["img"] = "/images/tattles/Hooktail.png",
-        ["codes"] = {
-            "Hooktail"
-        }
+        ["code"] = "Hooktail"
     },
     {
         ["name"] = "Gloomtail",
         ["img"] = "/images/tattles/Gloomtail.png",
-        ["codes"] = {
-            "Gloomtail"
-        }
+        ["code"] = "Gloomtail"
     },
     {
         ["name"] = "Bonetail",
         ["img"] = "/images/tattles/Bonetail.png",
-        ["codes"] = {
-            "Bonetail"
-        }
+        ["code"] = "Bonetail"
     },
     {
         ["name"] = "Rawk Hawk",
         ["img"] = "/images/tattles/Rawk Hawk.png",
-        ["codes"] = {
-            "Rawk_Hawk"
-        }
+        ["code"] = "Rawk_Hawk"
     },
     {
         ["name"] = "Macho Grubba",
         ["img"] = "/images/tattles/Macho Grubba.png",
-        ["codes"] = {
-            "Macho_Grubba"
-        }
+        ["code"] = "Macho_Grubba"
     },
     {
         ["name"] = "Doopliss",
         ["img"] = "/images/tattles/Doopliss.png",
-        ["codes"] = {
-            "Doopliss"
-        }
+        ["code"] = "Doopliss"
     },
     {
         ["name"] = "Cortez",
         ["img"] = "/images/tattles/Cortez.png",
-        ["codes"] = {
-            "Cortez"
-        }
+        ["code"] = "Cortez"
     },
     {
         ["name"] = "Smorg",
         ["img"] = "/images/tattles/Smorg.png",
-        ["codes"] = {
-            "Smorg"
-        }
+        ["code"] = "Smorg"
     },
     {
         ["name"] = "X-Naut",
         ["img"] = "/images/tattles/X-Naut.png",
-        ["codes"] = {
-            "X-Naut"
-        }
+        ["code"] = "X-Naut"
     },
     {
         ["name"] = "X-Naut PhD",
         ["img"] = "/images/tattles/X-Naut PhD.png",
-        ["codes"] = {
-            "X-Naut_PhD"
-        }
+        ["code"] = "X-Naut_PhD"
     },
     {
         ["name"] = "Elite X-Naut",
         ["img"] = "/images/tattles/Elite X-Naut.png",
-        ["codes"] = {
-            "Elite_X-Naut"
-        }
+        ["code"] = "Elite_X-Naut"
     },
     {
         ["name"] = "Yux",
         ["img"] = "/images/tattles/Yux.png",
-        ["codes"] = {
-            "Yux"
-        }
+        ["code"] = "Yux"
     },
     {
         ["name"] = "Mini-Yux",
         ["img"] = "/images/tattles/Mini-Yux.png",
-        ["codes"] = {
-            "Mini-Yux"
-        }
+        ["code"] = "Mini-Yux"
     },
     {
         ["name"] = "Z-Yux",
         ["img"] = "/images/tattles/Z-Yux.png",
-        ["codes"] = {
-            "Z-Yux"
-        }
+        ["code"] = "Z-Yux"
     },
     {
         ["name"] = "Mini-Z-Yux",
         ["img"] = "/images/tattles/Mini-Z-Yux.png",
-        ["codes"] = {
-            "Mini-Z-Yux"
-        }
+        ["code"] = "Mini-Z-Yux"
     },
     {
         ["name"] = "X-Yux",
         ["img"] = "/images/tattles/X-Yux.png",
-        ["codes"] = {
-            "X-Yux"
-        }
+        ["code"] = "X-Yux"
     },
     {
         ["name"] = "Mini-X-Yux",
         ["img"] = "/images/tattles/Mini-X-Yux.png",
-        ["codes"] = {
-            "Mini-X-Yux"
-        }
+        ["code"] = "Mini-X-Yux"
     },
     {
         ["name"] = "Grodus X",
         ["img"] = "/images/tattles/Grodus X.png",
-        ["codes"] = {
-            "Grodus_X"
-        }
+        ["code"] = "Grodus_X"
     },
     {
         ["name"] = "Magnus von Grapple",
         ["img"] = "/images/tattles/Magnus von Grapple.png",
-        ["codes"] = {
-            "Magnus_von_Grapple"
-        }
+        ["code"] = "Magnus_von_Grapple"
     },
     {
         ["name"] = "Magnus von Grapple 2.0",
         ["img"] = "/images/tattles/Magnus von Grapple 2.0.png",
-        ["codes"] = {
-            "Magnus_von_Grapple_2.0"
-        }
+        ["code"] = "Magnus_von_Grapple_2.0"
     },
     {
         ["name"] = "Lord Crump",
         ["img"] = "/images/tattles/Lord Crump.png",
-        ["codes"] = {
-            "Lord_Crump"
-        }
+        ["code"] = "Lord_Crump"
     },
     {
         ["name"] = "Sir Grodus",
         ["img"] = "/images/tattles/Sir Grodus.png",
-        ["codes"] = {
-            "Sir_Grodus"
-        }
+        ["code"] = "Sir_Grodus"
     },
     {
         ["name"] = "Beldam",
         ["img"] = "/images/tattles/Beldan.png",
-        ["codes"] = {
-            "Beldam"
-        }
+        ["code"] = "Beldam"
     },
     {
         ["name"] = "Marilyn",
         ["img"] = "/images/tattles/Marilyn.png",
-        ["codes"] = {
-            "Marilyn"
-        }
+        ["code"] = "Marilyn"
     },
     {
         ["name"] = "Vivian",
         ["img"] = "/images/tattles/Vivian.png",
-        ["codes"] = {
-            "Vivian_Item"
-        }
+        ["code"] = "Vivian_Item"
     },
     {
         ["name"] = "Shadow Queen",
         ["img"] = "/images/tattles/Shadow Queen.png",
-        ["codes"] = {
-            "Shadow_Queen"
-        }
+        ["code"] = "Shadow_Queen"
     }
 }
 
 local function CanProvideCodeFunc(self, code)
     return code == self.ItemState.Code
+end
+
+function ClearText(self)
+    for i=1,26 do
+        local code = "text_item_" .. tostring(i)
+        local text_item = Tracker:FindObjectForCode(code)
+        text_item.BadgeText = ""
+    end
+    for i=1,2 do
+        local code = "button_item_" .. tostring(i)
+        local button_item = Tracker:FindObjectForCode(code)
+        button_item.BadgeText = ""
+        button_item.Enemy = nil
+        button_item.OnLeftClickFunc = nil
+    end
+end
+
+local function NextPage(self)
+
+end
+
+local function SetText(self)
+    ClearText(nil)
+    for i=1,2 do
+        local code = "button_item_" .. tostring(i)
+        local button_item = Tracker:FindObjectForCode(code)
+        button_item.Enemy = self
+        button_item.Page = 1
+        if i == 2 then
+            if #(self.EnemyLocations) > 26 then
+                button_item.BadgeText = "next page.."
+            end
+        end
+    end
+    for i=1,26 do
+        local code = "text_item_" .. tostring(i)
+        local text_item = Tracker:FindObjectForCode(code)
+        if i <= #(self.EnemyLocations) then
+            text_item.BadgeText = self.EnemyLocations[i]
+        end
+    end
 end
 
 local function CreateLuaEnemyItems(enemy_dict)
@@ -872,11 +667,43 @@ local function CreateLuaEnemyItems(enemy_dict)
         enemy_item.Name = enemy["name"]
         enemy_item.Icon = ImageReference:FromPackRelativePath(enemy["img"])
         enemy_item.ItemState = {
-            Code = enemy["codes"][1]
+            Code = enemy["code"],
+            EnemyLocations = {}
         }
         enemy_item.CanProvideCodeFunc = CanProvideCodeFunc
         enemy_item.ProvidesCodeFunc = CanProvideCodeFunc
+        enemy_item.OnLeftClickFunc = SetText
+    end
+end
+
+local function CreateLuaTextItems()
+    for i=1,26 do
+        local text_item = ScriptHost:CreateLuaItem()
+        text_item.Name = ""
+        text_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackSquare.png")
+        text_item.ItemState = {
+            Code = "text_item_" .. tostring(i)
+        }
+        text_item.CanProvideCodeFunc = CanProvideCodeFunc
+        text_item.ProvidesCodeFunc = CanProvideCodeFunc
+    end
+end
+
+local function CreateLuaButtonItems()
+    for i=1,2 do
+        local button_item = ScriptHost:CreateLuaItem()
+        button_item.Name = ""
+        button_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackSquare.png")
+        button_item.ItemState = {
+            Code = "button_item_" .. tostring(i),
+            Enemy = nil,
+            Page = 1
+        }
+        button_item.CanProvideCodeFunc = CanProvideCodeFunc
+        button_item.ProvidesCodeFunc = CanProvideCodeFunc
     end
 end
 
 CreateLuaEnemyItems(ENEMY_DICT)
+CreateLuaTextItems()
+CreateLuaButtonItems()
