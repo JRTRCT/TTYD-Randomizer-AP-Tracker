@@ -642,7 +642,7 @@
                 "name": "Bullet Bill",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bullet Bill.png","chest_opened_img": "/images/tattles/Bullet Bill_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$pirates_grotto,$keelhaul_key,enemy_vanilla","^$enemy_rando|Bullet Bill"],
+                "access_rules":["$pirates_grotto,$keelhaul_key,enemy_vanilla","^$enemy_rando|Bullet Bill,[^$enemy_rando|Bill Blaster]"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 951}]
             },
             {
@@ -656,7 +656,7 @@
                 "name": "Bombshell Bill",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bombshell Bill.png","chest_opened_img": "/images/tattles/Bombshell Bill_Dim.png",
                 "visibility_rules":["NoPalaceSkip"],
-                "access_rules":["$palace,enemy_vanilla","^$enemy_rando|Bombshell Bill"],
+                "access_rules":["$palace,enemy_vanilla","^$enemy_rando|Bombshell Bill,[^$enemy_rando|B. Bill Blaster]"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 951}]
             },
             {
