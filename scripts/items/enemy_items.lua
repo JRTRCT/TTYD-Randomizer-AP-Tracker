@@ -4,6 +4,32 @@ local function CanProvideCodeFunc(self, code)
     return code == self.ItemState.Code
 end
 
+local function EnemySaveFunc(self)
+    if self.ItemState.Code == "Goomba" then
+        return {
+            CODE = self.ItemState.Code,
+            ENEMYLOCATIONS = self.ItemState.EnemyLocations,
+            ENEMYDICT = ENEMY_DICT
+        }
+    else
+        return {
+            CODE = self.ItemState.Code,
+            ENEMYLOCATIONS = self.ItemState.EnemyLocations
+        }
+    end
+end
+
+local function EnemyLoadFunc(self, data)
+    if self.ItemState.Code == data.CODE then
+        if data.CODE == "Goomba" then
+            ENEMY_DICT = data.ENEMYDICT
+            self.ItemState.EnemyLocations = data.ENEMYLOCATIONS
+        else
+            self.ItemState.EnemyLocations = data.ENEMYLOCATIONS
+        end
+    end
+end
+
 function ClearText(self)
     for i=0,13 do
         local code = "text_item_" .. tostring(i)
@@ -203,6 +229,8 @@ local function CreateLuaEnemyItems(enemy_dict)
         enemy_item.ProvidesCodeFunc = CanProvideCodeFunc
         enemy_item.OnLeftClickFunc = SetText
         enemy_item.OnRightClickFunc = ClearText
+        enemy_item.SaveFunc = EnemySaveFunc
+        enemy_item.LoadFunc = EnemyLoadFunc
     end
 end
 
