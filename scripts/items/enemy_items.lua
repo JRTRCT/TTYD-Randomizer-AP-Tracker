@@ -59,9 +59,11 @@ local function NextPage(self)
                             text_item.BadgeTextColor = "#00FF00"
                         else
                             text_item.BadgeTextColor = "#FFFFFF"
+                            print(location_code .. " has an unexpected accessibility level: " .. tostring(location_obj.AccessibilityLevel) .. ".")
                         end
                     else
                         text_item.BadgeTextColor = "#FFFFFF"
+                        print(location_code .. " was not found, defaulting to white text.")
                     end
 
                     for str in string.gmatch(location_name, "([^/]+)") do
@@ -116,9 +118,11 @@ local function PrevPage(self)
                             text_item.BadgeTextColor = "#00FF00"
                         else
                             text_item.BadgeTextColor = "#FFFFFF"
+                            print(location_code .. " has an unexpected accessibility level: " .. tostring(location_obj.AccessibilityLevel) .. ".")
                         end
                     else
                         text_item.BadgeTextColor = "#FFFFFF"
+                        print(location_code .. " was not found, defaulting to white text.")
                     end
 
                     for str in string.gmatch(location_name, "([^/]+)") do
@@ -168,9 +172,11 @@ local function SetText(self)
                         text_item.BadgeTextColor = "#00FF00"
                     else
                         text_item.BadgeTextColor = "#FFFFFF"
+                            print(location_code .. " has an unexpected accessibility level: " .. tostring(location_obj.AccessibilityLevel) .. ".")
                     end
                 else
                     text_item.BadgeTextColor = "#FFFFFF"
+                    print(location_code .. " was not found, defaulting to white text.")
                 end
 
                 for str in string.gmatch(location_name, "([^/]+)") do
