@@ -136,6 +136,7 @@ function onClear(slot_data)
                     enemy_location_table[idx] = location_name
                     idx = idx + 1
                 end
+                table.sort(enemy_location_table)
                 enemy_obj.ItemState.EnemyLocations = enemy_location_table
                 -- print(location_text)
             end
