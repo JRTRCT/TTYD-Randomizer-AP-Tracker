@@ -97,30 +97,63 @@ function onClear(slot_data)
             if name == "Iron Cleft" then
                 name = "Iron Clefts"
             end
-            local code = "@Tattle Log/" .. name .. "/"
+            if name == "Vivian" then
+                name = "Vivian_Item"
+            end
+            local code = string.gsub(name, " ", "_")
             local enemy_obj = Tracker:FindObjectForCode(code)
             if not enemy_obj then
                 print("Could not find " .. name)
             else
-                local overlay_text = name .. " is near:"
+                local location_text = name .. " is near:"
+                local enemy_location_set = {}
                 if ids then
                     for _, id in pairs(ids) do
                         local location_array = LOCATION_MAPPING[id]
                         if not location_array then
                             print("location ID " .. tostring(id) .. " not found in location mapping")
                         else
-                            for _, code in pairs(location_array) do
-                                overlay_text = overlay_text .. "\n" .. code
+                            for _, location_code in pairs(location_array) do
+                                local location_name = location_code
+                                for str in string.gmatch(location_code, "([^/]+)") do
+                                    location_name = str
+                                end
+                                if not enemy_location_set[location_name] then
+                                    location_text = location_text .. "\n" .. location_name
+                                end
+                                enemy_location_set[location_name] = true
                             end
                         end
                     end
                 else
                     print("location ids not found")
                 end
-                print(overlay_text)
+                local enemy_location_table = {}
+                local idx = 1
+                for location_name, _ in pairs(enemy_location_set) do
+                    enemy_location_table[idx] = location_name
+                    idx = idx + 1
+                end
+                enemy_obj.ItemState.EnemyLocations = enemy_location_table
+                print(location_text)
             end
         end
+    else
+        for name, ids in pairs(ENEMY_DICT) do
+            name = string.sub(name, 9)
+            if name == "Iron Cleft" then
+                name = "Iron Clefts"
+            end
+            if name == "Vivian" then
+                name = "Vivian_Item"
+            end
+            local code = string.gsub(name, " ", "_")
+            local enemy_obj = Tracker:FindObjectForCode(code)
+            enemy_obj.ItemState.EnemyLocations = {}
+        end    
     end
+
+    ClearText(nil)
 
     -- Map Datastorage
     if Archipelago.PlayerNumber > -1 then
