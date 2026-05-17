@@ -138,7 +138,22 @@ function onClear(slot_data)
                 print(location_text)
             end
         end
+    else
+        for name, ids in pairs(ENEMY_DICT) do
+            name = string.sub(name, 9)
+            if name == "Iron Cleft" then
+                name = "Iron Clefts"
+            end
+            if name == "Vivian" then
+                name = "Vivian_Item"
+            end
+            local code = string.gsub(name, " ", "_")
+            local enemy_obj = Tracker:FindObjectForCode(code)
+            enemy_obj.ItemState.EnemyLocations = {}
+        end    
     end
+
+    ClearText(nil)
 
     -- Map Datastorage
     if Archipelago.PlayerNumber > -1 then

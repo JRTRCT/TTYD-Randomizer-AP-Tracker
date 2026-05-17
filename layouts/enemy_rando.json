@@ -1,5 +1,5 @@
 {
-    "tattle_item_grid": {
+    "enemy_rando_grid": {
         "type": "itemgrid",
         "item_margin": "3, 3",
         "h_alignment": "left",
@@ -167,6 +167,65 @@
                 "Shadow_Queen",
                 "",
                 ""
+            ]
+        ]
+    },
+    "location_text_grid": {
+        "type": "itemgrid",
+        "item_margin": "3, 3",
+        "h_alignment": "left",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+        "rows": [
+            [
+                "text_item_0"
+            ],
+            [
+                "button_item_1"
+            ],
+            [
+                "text_item_1"
+            ],
+            [
+                "text_item_2"
+            ],
+            [
+                "text_item_3"
+            ],
+            [
+                "text_item_4"
+            ],
+            [
+                "text_item_5"
+            ],
+            [
+                "text_item_6"
+            ],
+            [
+                "text_item_7"
+            ],
+            [
+                "text_item_8"
+            ],
+            [
+                "text_item_9"
+            ],
+            [
+                "text_item_10"
+            ],
+            [
+                "text_item_11"
+            ],
+            [
+                "text_item_12"
+            ],
+            [
+                "text_item_13"
+            ],
+            [
+                "button_item_2"
             ]
         ]
     }

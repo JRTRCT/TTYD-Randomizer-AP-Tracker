@@ -621,7 +621,7 @@ local function CanProvideCodeFunc(self, code)
 end
 
 function ClearText(self)
-    for i=1,26 do
+    for i=0,13 do
         local code = "text_item_" .. tostring(i)
         local text_item = Tracker:FindObjectForCode(code)
         text_item.BadgeText = ""
@@ -630,13 +630,73 @@ function ClearText(self)
         local code = "button_item_" .. tostring(i)
         local button_item = Tracker:FindObjectForCode(code)
         button_item.BadgeText = ""
-        button_item.Enemy = nil
-        button_item.OnLeftClickFunc = nil
+        local enemy = button_item.ItemState.Enemy
+        button_item.ItemState.Enemy = nil
     end
 end
 
 local function NextPage(self)
+    local enemy = self.ItemState.Enemy
+    local page = self.ItemState.Page
+    if #(enemy.ItemState.EnemyLocations) > 13 * page then
+        ClearText(nil)
+        for i = 1, 2 do
+            local code = "button_item_" .. tostring(i)
+            local button_item = Tracker:FindObjectForCode(code)
+            button_item.ItemState.Enemy = enemy
+            button_item.ItemState.Page = page + 1
+            if i == 2 then
+                if #(enemy.ItemState.EnemyLocations) > 13 * (page + 1) then
+                    button_item.BadgeText = "next..."
+                end
+            else
+                button_item.BadgeText = "prev..."
+            end
+        end
+        for i = 0, 13 do
+            local code = "text_item_" .. tostring(i)
+            local text_item = Tracker:FindObjectForCode(code)
+            if i > 0 then
+                if i + 13 * page <= #(enemy.ItemState.EnemyLocations) then
+                    text_item.BadgeText = enemy.ItemState.EnemyLocations[i + 13 * page]
+                end
+            else
+                text_item.BadgeText = "Selected Enemy: " .. enemy.Name
+            end
+        end
+    end
+end
 
+local function PrevPage(self)
+    local enemy = self.ItemState.Enemy
+    local page = self.ItemState.Page
+    if page > 1 then
+        ClearText(nil)
+        for i = 1, 2 do
+            local code = "button_item_" .. tostring(i)
+            local button_item = Tracker:FindObjectForCode(code)
+            button_item.ItemState.Enemy = enemy
+            button_item.ItemState.Page = page - 1
+            if i == 2 then
+                button_item.BadgeText = "next..."
+            else
+                if page > 2 then
+                    button_item.BadgeText = "prev..."
+                end
+            end
+        end
+        for i = 0, 13 do
+            local code = "text_item_" .. tostring(i)
+            local text_item = Tracker:FindObjectForCode(code)
+            if i > 0 then
+                if i + 13 * (page - 2) <= #(enemy.ItemState.EnemyLocations) then
+                    text_item.BadgeText = enemy.ItemState.EnemyLocations[i + 13 * (page - 2)]
+                end
+            else
+                text_item.BadgeText = "Selected Enemy: " .. enemy.Name
+            end
+        end
+    end
 end
 
 local function SetText(self)
@@ -644,19 +704,23 @@ local function SetText(self)
     for i=1,2 do
         local code = "button_item_" .. tostring(i)
         local button_item = Tracker:FindObjectForCode(code)
-        button_item.Enemy = self
-        button_item.Page = 1
+        button_item.ItemState.Enemy = self
+        button_item.ItemState.Page = 1
         if i == 2 then
-            if #(self.EnemyLocations) > 26 then
-                button_item.BadgeText = "next page.."
+            if #(self.ItemState.EnemyLocations) > 13 then
+                button_item.BadgeText = "next..."
             end
         end
     end
-    for i=1,26 do
+    for i=0,13 do
         local code = "text_item_" .. tostring(i)
         local text_item = Tracker:FindObjectForCode(code)
-        if i <= #(self.EnemyLocations) then
-            text_item.BadgeText = self.EnemyLocations[i]
+        if i > 0 then
+            if i <= #(self.ItemState.EnemyLocations) then
+                text_item.BadgeText = self.ItemState.EnemyLocations[i]
+            end
+        else
+            text_item.BadgeText = "Selected Enemy: " .. self.Name
         end
     end
 end
@@ -673,17 +737,20 @@ local function CreateLuaEnemyItems(enemy_dict)
         enemy_item.CanProvideCodeFunc = CanProvideCodeFunc
         enemy_item.ProvidesCodeFunc = CanProvideCodeFunc
         enemy_item.OnLeftClickFunc = SetText
+        enemy_item.OnRightClickFunc = ClearText
     end
 end
 
 local function CreateLuaTextItems()
-    for i=1,26 do
+    for i=0,13 do
         local text_item = ScriptHost:CreateLuaItem()
         text_item.Name = ""
         text_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackSquare.png")
         text_item.ItemState = {
             Code = "text_item_" .. tostring(i)
         }
+        text_item:SetOverlayFontSize(20)
+        text_item:SetOverlayAlign("left")
         text_item.CanProvideCodeFunc = CanProvideCodeFunc
         text_item.ProvidesCodeFunc = CanProvideCodeFunc
     end
@@ -699,8 +766,15 @@ local function CreateLuaButtonItems()
             Enemy = nil,
             Page = 1
         }
+        button_item:SetOverlayFontSize(20)
+        button_item:SetOverlayAlign("left")
         button_item.CanProvideCodeFunc = CanProvideCodeFunc
         button_item.ProvidesCodeFunc = CanProvideCodeFunc
+        if i == 1 then
+            button_item.OnLeftClickFunc = PrevPage
+        else
+            button_item.OnLeftClickFunc = NextPage
+        end
     end
 end
 
