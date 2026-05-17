@@ -306,7 +306,7 @@
                         {
                             "type": "text",
                             "dock": "top",
-                            "text": "Left click an enemy to display locations near encounters where the enemy can be found.\nRight click to clear."
+                            "text": "Left click an enemy to display locations near encounters where the enemy can be found.\nRight click on any enemy to clear."
                         },
                         {
                             "type": "dock",
@@ -637,7 +637,7 @@
                         {
                             "type": "text",
                             "dock": "top",
-                            "text": "Left click an enemy to display locations near encounters where the enemy can be found.\nRight click to clear."
+                            "text": "Left click an enemy to display locations near encounters where the enemy can be found.\nRight click on any enemy to clear."
                         },
                         {
                             "type": "dock",

@@ -658,10 +658,35 @@ local function NextPage(self)
             local text_item = Tracker:FindObjectForCode(code)
             if i > 0 then
                 if i + 13 * page <= #(enemy.ItemState.EnemyLocations) then
-                    text_item.BadgeText = enemy.ItemState.EnemyLocations[i + 13 * page]
+                    local location_code = enemy.ItemState.EnemyLocations[i + 13 * page]
+                    local location_name = location_code
+                    
+                    location_code = location_code .. " Dummy"
+
+                    local location_obj = Tracker:FindObjectForCode(location_code)
+                    if location_obj then
+                        if location_obj.AccessibilityLevel == AccessibilityLevel.None then
+                            text_item.BadgeTextColor = "#FF0000"
+                        elseif location_obj.AccessibilityLevel == AccessibilityLevel.SequenceBreak then
+                            text_item.BadgeTextColor = "#FFFF00"
+                        elseif location_obj.AccessibilityLevel == AccessibilityLevel.Inspect then
+                            text_item.BadgeTextColor = "#0000FF"
+                        elseif location_obj.AccessibilityLevel == AccessibilityLevel.Normal then
+                            text_item.BadgeTextColor = "#00FF00"
+                        else
+                            text_item.BadgeTextColor = "#FFFFFF"
+                        end
+                    else
+                        text_item.BadgeTextColor = "#FFFFFF"
+                    end
+
+                    for str in string.gmatch(location_name, "([^/]+)") do
+                        location_name = str
+                    end
+                    text_item.BadgeText = location_name
                 end
             else
-                text_item.BadgeText = "Selected Enemy: " .. enemy.Name
+                text_item.BadgeText = enemy.Name .. " is near:"
             end
         end
     end
@@ -690,10 +715,35 @@ local function PrevPage(self)
             local text_item = Tracker:FindObjectForCode(code)
             if i > 0 then
                 if i + 13 * (page - 2) <= #(enemy.ItemState.EnemyLocations) then
-                    text_item.BadgeText = enemy.ItemState.EnemyLocations[i + 13 * (page - 2)]
+                    local location_code = enemy.ItemState.EnemyLocations[i + 13 * (page - 2)]
+                    local location_name = location_code
+
+                    location_code = location_code .. " Dummy"
+
+                    local location_obj = Tracker:FindObjectForCode(location_code)
+                    if location_obj then
+                        if location_obj.AccessibilityLevel == AccessibilityLevel.None then
+                            text_item.BadgeTextColor = "#FF0000"
+                        elseif location_obj.AccessibilityLevel == AccessibilityLevel.SequenceBreak then
+                            text_item.BadgeTextColor = "#FFFF00"
+                        elseif location_obj.AccessibilityLevel == AccessibilityLevel.Inspect then
+                            text_item.BadgeTextColor = "#0000FF"
+                        elseif location_obj.AccessibilityLevel == AccessibilityLevel.Normal then
+                            text_item.BadgeTextColor = "#00FF00"
+                        else
+                            text_item.BadgeTextColor = "#FFFFFF"
+                        end
+                    else
+                        text_item.BadgeTextColor = "#FFFFFF"
+                    end
+
+                    for str in string.gmatch(location_name, "([^/]+)") do
+                        location_name = str
+                    end
+                    text_item.BadgeText = location_name
                 end
             else
-                text_item.BadgeText = "Selected Enemy: " .. enemy.Name
+                text_item.BadgeText = enemy.Name .. " is near:"
             end
         end
     end
@@ -717,10 +767,35 @@ local function SetText(self)
         local text_item = Tracker:FindObjectForCode(code)
         if i > 0 then
             if i <= #(self.ItemState.EnemyLocations) then
-                text_item.BadgeText = self.ItemState.EnemyLocations[i]
+                local location_code = self.ItemState.EnemyLocations[i]
+                local location_name = location_code
+
+                location_code = location_code .. " Dummy"
+
+                local location_obj = Tracker:FindObjectForCode(location_code)
+                if location_obj then
+                    if location_obj.AccessibilityLevel == AccessibilityLevel.None then
+                        text_item.BadgeTextColor = "#FF0000"
+                    elseif location_obj.AccessibilityLevel == AccessibilityLevel.SequenceBreak then
+                        text_item.BadgeTextColor = "#FFFF00"
+                    elseif location_obj.AccessibilityLevel == AccessibilityLevel.Inspect then
+                        text_item.BadgeTextColor = "#0000FF"
+                    elseif location_obj.AccessibilityLevel == AccessibilityLevel.Normal then
+                        text_item.BadgeTextColor = "#00FF00"
+                    else
+                        text_item.BadgeTextColor = "#FFFFFF"
+                    end
+                else
+                    text_item.BadgeTextColor = "#FFFFFF"
+                end
+
+                for str in string.gmatch(location_name, "([^/]+)") do
+                    location_name = str
+                end
+                text_item.BadgeText = location_name
             end
         else
-            text_item.BadgeText = "Selected Enemy: " .. self.Name
+            text_item.BadgeText = self.Name .. " is near:"
         end
     end
 end

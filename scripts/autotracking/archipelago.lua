@@ -114,14 +114,16 @@ function onClear(slot_data)
                             print("location ID " .. tostring(id) .. " not found in location mapping")
                         else
                             for _, location_code in pairs(location_array) do
+                                --[[
                                 local location_name = location_code
                                 for str in string.gmatch(location_code, "([^/]+)") do
                                     location_name = str
                                 end
-                                if not enemy_location_set[location_name] then
-                                    location_text = location_text .. "\n" .. location_name
+                                --]]
+                                if not enemy_location_set[location_code] then
+                                    location_text = location_text .. "\n" .. location_code
                                 end
-                                enemy_location_set[location_name] = true
+                                enemy_location_set[location_code] = true
                             end
                         end
                     end
