@@ -135,7 +135,7 @@ function onClear(slot_data)
                     idx = idx + 1
                 end
                 enemy_obj.ItemState.EnemyLocations = enemy_location_table
-                print(location_text)
+                -- print(location_text)
             end
         end
     else
@@ -243,27 +243,31 @@ function onMapChange(key, value, old)
     local currentObject = currentCode and Tracker:FindObjectForCode(currentCode)
     local newObject
 
+    if newCode == nil then
+        return
+    end
+
     if key == cur_room then
-    if key ~= nil then
-        newObject = Tracker:FindObjectForCode(newCode)
+        if key ~= nil then
+            newObject = Tracker:FindObjectForCode(newCode)
 
 
-        if currentObject and currentObject.Active then
-            currentObject.Active = false
-        end
-        
-        if has("PlayerTrackOn") then
-            if newObject then
-                newObject.Active = true
+            if currentObject and currentObject.Active then
+                currentObject.Active = false
             end
 
-            currentCode = newCode
-        end
+            if has("PlayerTrackOn") then
+                if newObject then
+                    newObject.Active = true
+                end
 
-        if has("AutoTabOn") then
-            tabs = MAP_MAPPING[tostring(value)]
-            for i, tab in ipairs(tabs) do
-                Tracker:UiHint("ActivateTab", tab)
+                currentCode = newCode
+            end
+
+            if has("AutoTabOn") then
+                tabs = MAP_MAPPING[tostring(value)]
+                for i, tab in ipairs(tabs) do
+                    Tracker:UiHint("ActivateTab", tab)
                 end
             end
         end
