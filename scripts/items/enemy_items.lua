@@ -238,7 +238,7 @@ local function CreateLuaTextItems()
     for i=0,13 do
         local text_item = ScriptHost:CreateLuaItem()
         text_item.Name = ""
-        text_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackSquare.png")
+        text_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackBox.png")
         text_item.ItemState = {
             Code = "text_item_" .. tostring(i)
         }
@@ -253,7 +253,7 @@ local function CreateLuaButtonItems()
     for i=1,2 do
         local button_item = ScriptHost:CreateLuaItem()
         button_item.Name = ""
-        button_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackSquare.png")
+        button_item.Icon = ImageReference:FromPackRelativePath("images/items/BlackBox.png")
         button_item.ItemState = {
             Code = "button_item_" .. tostring(i),
             Enemy = nil,

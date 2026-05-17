@@ -177,7 +177,7 @@
         "item_h_alignment": "center",
         "item_v_alignment": "center",
                         "item_height": 36,
-                        "item_width": 36,
+                        "item_width": 1000,
         "rows": [
             [
                 "text_item_0"
