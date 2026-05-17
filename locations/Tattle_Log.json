@@ -71,7 +71,7 @@
                 "name": "Koopa Troopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Koopa Troopa.png","chest_opened_img": "/images/tattles/Koopa Troopa_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","PlaneCurse,SunStone,MoonStone,Koops,enemy_vanilla","[PlaneCurse],$HRGlvl1,enemy_vanilla","^$enemy_rando|Koopa Troopa"],
+                "access_rules":["PlaneCurse.enemy_vanilla","[PlaneCurse],$HRGlvl2,pipe_on,enemy_vanilla","SuperHammer,SuperBoots,pipe_on,enemy_vanilla","[PlaneCurse],$HRGlvl1,enemy_vanilla","^$enemy_rando|Koopa Troopa"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 327}]
             },
             {
@@ -351,14 +351,14 @@
                 "name": "Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Fuzzy.png","chest_opened_img": "/images/tattles/Fuzzy_Dim.png",
                 "visibility_rules":["YesPit","Ch1"],
-                "access_rules":["$pit,[$chapters|3],YesPit,enemy_vanilla","PlaneCurse","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","^$enemy_rando|Fuzzy"],
+                "access_rules":["$pit,[$chapters|3],YesPit,enemy_vanilla","PlaneCurse","[PlaneCurse],$HRGlvl2,pipe_on,enemy_vanilla","SuperHammer,SuperBoots,pipe_on,enemy_vanilla","^$enemy_rando|Fuzzy"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1572}]
             },
             {
                 "name": "Gold Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Gold Fuzzy.png","chest_opened_img": "/images/tattles/Gold Fuzzy_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","[PlaneCurse],$HRGlvl2,enemy_vanilla","^$enemy_rando|Gold Fuzzy"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2,pipe_on,enemy_vanilla","SuperHammer,SuperBoots,pipe_on,enemy_vanilla","^$enemy_rando|Gold Fuzzy"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1572}]
             },
             {
@@ -540,7 +540,7 @@
                 "name": "Bald Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bald Cleft.png","chest_opened_img": "/images/tattles/Bald Cleft_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse,enemy_vanilla","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","^$enemy_rando|Bald Cleft"],
+                "access_rules":["PlaneCurse,enemy_vanilla","[PlaneCurse],$HRGlvl2,pipe_on,enemy_vanilla","SuperHammer,SuperBoots,pipe_on,enemy_vanilla","^$enemy_rando|Bald Cleft"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 440}]
             },
             {
@@ -554,7 +554,7 @@
                 "name": "Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Cleft.png","chest_opened_img": "/images/tattles/Cleft_Dim.png",
                 "visibility_rules":["YesPit","Ch2"],
-                "access_rules":["SuperHammer,SuperBoots,enemy_vanilla","$bogglywoods,enemy_vanilla","[$bogglywoods],$HRGlvl2,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","^$enemy_rando|Cleft"],
+                "access_rules":["SuperHammer,SuperBoots,pipe_on,enemy_vanilla","$bogglywoods,enemy_vanilla","[$bogglywoods],$HRGlvl2,pipe_on,enemy_vanilla","$pit,[$chapters|1],YesPit,enemy_vanilla","^$enemy_rando|Cleft"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 558}]
             },
             {
@@ -586,7 +586,7 @@
                 "name": "Bristle",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bristle.png","chest_opened_img": "/images/tattles/Bristle_Dim.png",
                 "visibility_rules":["Ch1","Ch3"],
-                "access_rules":["PlaneCurse,enemy_vanilla","[PlaneCurse],$HRGlvl2,enemy_vanilla","SuperHammer,SuperBoots,enemy_vanilla","$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","^$enemy_rando|Bristle"],
+                "access_rules":["PlaneCurse,enemy_vanilla","[PlaneCurse],$HRGlvl2,pipe_on,enemy_vanilla","SuperHammer,SuperBoots,pipe_on,enemy_vanilla","$westside,BlimpTicket,enemy_vanilla","[$westside],BlimpTicket,$HRGlvl1,enemy_vanilla","^$enemy_rando|Bristle"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 690}]
             },
             {
