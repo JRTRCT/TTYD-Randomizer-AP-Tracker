@@ -95,6 +95,10 @@ local function NextPage(self)
                     for str in string.gmatch(location_name, "([^/]+)") do
                         location_name = str
                     end
+                    for str in string.gmatch(location_name, "([^-]+)") do
+                        location_name = str
+                        break
+                    end
                     text_item.BadgeText = location_name
                 end
             else
@@ -154,10 +158,40 @@ local function PrevPage(self)
                     for str in string.gmatch(location_name, "([^/]+)") do
                         location_name = str
                     end
+                    for str in string.gmatch(location_name, "([^-]+)") do
+                        location_name = str
+                        break
+                    end
                     text_item.BadgeText = location_name
                 end
             else
                 text_item.BadgeText = enemy.Name .. " is near:"
+            end
+        end
+    end
+end
+
+local function CompareAccessibility(a, b)
+    local a_obj = Tracker:FindObjectForCode(a)
+    local b_obj = Tracker:FindObjectForCode(b)
+    if a_obj == nil then
+        return false
+    elseif b_obj == nil then
+        return true
+    else
+        return a_obj.AccessibilityLevel > b_obj.AccessibilityLevel
+    end
+end
+
+local function StableSort(location_table, cmp_func)
+    local len = #(location_table)
+    local temp
+    for i=1,(len-1) do
+        for j=i,1,-1 do
+            if cmp_func(location_table[j+1],location_table[j]) then
+                temp = location_table[j+1]
+                location_table[j+1] = location_table[j]
+                location_table[j] = temp
             end
         end
     end
@@ -176,6 +210,8 @@ local function SetText(self)
             end
         end
     end
+    table.sort(self.ItemState.EnemyLocations)
+    StableSort(self.ItemState.EnemyLocations,CompareAccessibility)
     for i=0,13 do
         local code = "text_item_" .. tostring(i)
         local text_item = Tracker:FindObjectForCode(code)
@@ -207,6 +243,10 @@ local function SetText(self)
 
                 for str in string.gmatch(location_name, "([^/]+)") do
                     location_name = str
+                end
+                for str in string.gmatch(location_name, "([^-]+)") do
+                    location_name = str
+                    break
                 end
                 text_item.BadgeText = location_name
             end
