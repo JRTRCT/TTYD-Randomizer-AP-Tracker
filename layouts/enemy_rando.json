@@ -5,8 +5,8 @@
         "h_alignment": "left",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-                        "item_height": 48,
-                        "item_width": 48,
+        "item_height": 48,
+        "item_width": 48,
         "rows": [
             [
                 "Goomba",
@@ -176,8 +176,8 @@
         "h_alignment": "left",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-                        "item_height": 36,
-                        "item_width": 1000,
+        "item_height": 36,
+        "item_width": 1000,
         "rows": [
             [
                 "text_item_0"
@@ -235,8 +235,8 @@
         "h_alignment": "left",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-                        "item_height": 28,
-                        "item_width": 28,
+        "item_height": 28,
+        "item_width": 28,
         "rows": [
             [
                 "Goomba",
@@ -406,8 +406,8 @@
         "h_alignment": "left",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-                        "item_height": 18,
-                        "item_width": 500,
+        "item_height": 18,
+        "item_width": 500,
         "rows": [
             [
                 "text_item_0"
