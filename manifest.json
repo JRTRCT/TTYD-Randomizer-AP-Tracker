@@ -37,6 +37,14 @@
         "var_SwitchRemakeNoOutlinesWithMap": {
             "display_name": "Map Tracker - Switch Remake No Outlines",
             "flags": ["ap"]
+    },
+        "var_OGSpritesWithMapSmall": {
+            "display_name": "Map Tracker - OG Sprites Small Screens Variant",
+            "flags": ["ap"]
+    },
+        "var_SwitchRemakeNoOutlinesWithMapSmall": {
+            "display_name": "Map Tracker - Switch Remake No Outlines Small Screens Variant",
+            "flags": ["ap"]
     }
     },
     "min_poptracker_version": "0.32.1"

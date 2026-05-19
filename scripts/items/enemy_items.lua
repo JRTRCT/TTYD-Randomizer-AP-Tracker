@@ -282,7 +282,13 @@ local function CreateLuaTextItems()
         text_item.ItemState = {
             Code = "text_item_" .. tostring(i)
         }
-        text_item:SetOverlayFontSize(20)
+
+        if Tracker.ActiveVariantUID == "var_OGSpritesWithMapSmall" or Tracker.ActiveVariantUID == "var_SwitchRemakeNoOutlinesWithMapSmall" then
+            text_item:SetOverlayFontSize(10)
+        else
+            text_item:SetOverlayFontSize(20)
+        end
+        
         text_item:SetOverlayAlign("left")
         text_item.CanProvideCodeFunc = CanProvideCodeFunc
         text_item.ProvidesCodeFunc = CanProvideCodeFunc
@@ -299,7 +305,13 @@ local function CreateLuaButtonItems()
             Enemy = nil,
             Page = 1
         }
-        button_item:SetOverlayFontSize(20)
+        
+        if Tracker.ActiveVariantUID == "var_OGSpritesWithMapSmall" or Tracker.ActiveVariantUID == "var_SwitchRemakeNoOutlinesWithMapSmall" then
+            button_item:SetOverlayFontSize(10)
+        else
+            button_item:SetOverlayFontSize(20)
+        end
+        
         button_item:SetOverlayAlign("left")
         button_item.CanProvideCodeFunc = CanProvideCodeFunc
         button_item.ProvidesCodeFunc = CanProvideCodeFunc
